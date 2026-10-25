@@ -1,0 +1,157 @@
+{
+  "date": "2026-06-18",
+  "phase": "close",
+  "kind": "retrospective",
+  "model": "history-news-v1",
+  "asof": "2026-06-18T18:00:00+08:00",
+  "assessed_at": "2026-10-23T16:50:50.259336+08:00",
+  "sources": [
+    {
+      "id": "prices",
+      "title": "东方财富三指数历史日线（本机保存原始返回）",
+      "url": "https://quote.eastmoney.com/center/hszs.html",
+      "date": "2026-06-18",
+      "note": "按截至所选日的行情回算，原始文件与索引保存在 data/raw 和 data/indices.json"
+    },
+    {
+      "id": "cls-2403478",
+      "title": "收评：科创50指数大涨3.84% 中际旭创总市值超越贵州茅台",
+      "url": "https://www.cls.cn/detail/2403478",
+      "published_at": "2026-06-18T15:02:46+08:00",
+      "retrieved_at": "2026-10-23T16:06:05.204473+08:00",
+      "cache": "backfill\\search\\close-006.json"
+    },
+    {
+      "id": "cls-2403502",
+      "title": "6月18日涨停分析",
+      "url": "https://www.cls.cn/detail/2403502",
+      "published_at": "2026-06-18T15:14:32+08:00",
+      "retrieved_at": "2026-10-23T16:06:05.739655+08:00",
+      "cache": "backfill\\search\\limits-008.json"
+    },
+    {
+      "id": "cls-2403574",
+      "title": "6月18日连板股分析：连板股晋级率不足三成 旭光电子、和远气体均走出11天6板",
+      "url": "https://www.cls.cn/detail/2403574",
+      "published_at": "2026-06-18T16:02:15+08:00",
+      "retrieved_at": "2026-10-23T16:06:14.466094+08:00",
+      "cache": "backfill\\search\\leaders-004.json"
+    },
+    {
+      "id": "cls-2402363",
+      "title": "6月17日连板股分析：连板股晋级率34% 连板高度再度降至3板",
+      "url": "https://www.cls.cn/detail/2402363",
+      "published_at": "2026-06-17T16:05:29+08:00",
+      "retrieved_at": "2026-10-23T16:06:14.466094+08:00",
+      "cache": "backfill\\search\\leaders-004.json"
+    },
+    {
+      "id": "cls-2403041",
+      "title": "财联社6月18日早间新闻精选",
+      "url": "https://www.cls.cn/detail/2403041",
+      "published_at": "2026-06-18T08:00:52+08:00",
+      "retrieved_at": "2026-10-23T16:06:14.832049+08:00",
+      "cache": "backfill\\search\\morning-004.json"
+    }
+  ],
+  "dimensions": [
+    {
+      "key": "trend",
+      "score": 20,
+      "reason": "三个指数等权：收盘相对MA5/MA20、MA20方向及5日收益四项检查，再折算至20分。",
+      "source_ids": [
+        "prices"
+      ]
+    },
+    {
+      "key": "volume",
+      "score": 15,
+      "reason": "沪深成交额较前5日均额为1.107倍；结合三指数当日平均涨跌方向评分，非单看放量。",
+      "source_ids": [
+        "prices"
+      ]
+    },
+    {
+      "key": "breadth",
+      "score": 5,
+      "reason": "全市场超3300只个股下跌；按新闻家数档位评价广度。约数保持约数，不推算精确涨跌占比。",
+      "source_ids": [
+        "cls-2403478"
+      ]
+    },
+    {
+      "key": "sentiment",
+      "score": 7,
+      "reason": "封板率68%，连板晋级率26.31%；两项分档合计，不含ST和退市股。",
+      "source_ids": [
+        "cls-2403502",
+        "cls-2403574"
+      ]
+    },
+    {
+      "key": "theme",
+      "score": 12,
+      "reason": "活跃方向：AI算力、资源周期；与上一交易日相同：AI算力。以连续新闻描述观察主线；不把连板本身认作回踩承接。",
+      "source_ids": [
+        "cls-2403574",
+        "cls-2402363"
+      ]
+    },
+    {
+      "key": "policy",
+      "score": 6,
+      "reason": "稳增长、产业或市场支持表述。仅评价当日已公开政策叙事，不等于盈利兑现。",
+      "source_ids": [
+        "cls-2403041"
+      ]
+    },
+    {
+      "key": "external",
+      "score": 2,
+      "reason": "当日早间报道的最近美股收盘：纳指-1.34%。仅作海外科技风险偏好代理，不涵盖全部海外风险。",
+      "source_ids": [
+        "cls-2403041"
+      ]
+    },
+    {
+      "key": "events",
+      "score": 3,
+      "reason": "当日新闻窗口发现2条公司、贸易或重大事件线索；需避开对应公司事件暴露。这是新闻风险观察，未完成全市场公告与解禁穷尽核查。",
+      "source_ids": [
+        "cls-2403041"
+      ]
+    }
+  ],
+  "conditions": [
+    {
+      "key": "seal",
+      "status": "fail",
+      "detail": "当日封板率68%"
+    },
+    {
+      "key": "breadth",
+      "status": "fail",
+      "detail": "未证实连续两日广度改善；单日反弹不通过。"
+    },
+    {
+      "key": "theme",
+      "status": "unknown",
+      "detail": "新闻中的板块上涨或连板不足以证明主线回踩承接，需另有明确证据。"
+    }
+  ],
+  "reasons": [
+    "按截至当日18:00的公开资料重建八维评分；仅用于历史环境回看。",
+    "已核验8/8项；资料齐全后按分档显示开仓条件。",
+    "分数达标仍需封板、广度和回踩承接三项同时通过；减仓要结合持仓失效位。"
+  ],
+  "metrics": {
+    "breadth_note": "全市场超3300只个股下跌",
+    "seal_rate": 68.0,
+    "continuation": 26.31,
+    "limit_up": 91,
+    "broken": 42,
+    "scope": "涨停/炸板/封板率/晋级率：财联社，不含ST和退市股。广度为报道约数；不与非ST样本混算占比。"
+  },
+  "missing": [],
+  "research_note": "按当日18:00前公开资料进行规则回评；不代表当时发布过信号。新闻因子与原人工评估有方法差异，未做收益回测。"
+}

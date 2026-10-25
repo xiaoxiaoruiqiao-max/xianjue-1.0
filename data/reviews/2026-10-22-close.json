@@ -1,0 +1,153 @@
+{
+  "date": "2026-10-22",
+  "phase": "close",
+  "kind": "retrospective",
+  "asof": "2026-10-22T17:00:00+08:00",
+  "assessed_at": "2026-10-23T15:27:11+08:00",
+  "model": "eight-factor-review-v1",
+  "sources": [
+    {
+      "id": "prices",
+      "title": "东方财富：三大指数原始日线",
+      "url": "https://quote.eastmoney.com/center/hszs.html",
+      "note": "本机已保存原始响应及SHA-256；均线仅用截至所选日行情"
+    },
+    {
+      "id": "policy",
+      "title": "两办：推动科技创新和产业创新深度融合",
+      "url": "https://www.forestry.gov.cn/lyj/1/szxx/20261021/693019.html",
+      "date": "2026-10-21",
+      "note": "新华社原文，政府网站发布"
+    },
+    {
+      "id": "macro",
+      "title": "国家统计局：前三季度国民经济运行情况",
+      "url": "https://www.stats.gov.cn/sj/zxfbhjd/202610/t20261019_1965618.html",
+      "date": "2026-10-19"
+    },
+    {
+      "id": "events",
+      "title": "三季报进入密集披露期：10月19日至25日事项",
+      "url": "https://finance.eastmoney.com/a/202610183899179482.html",
+      "published_at": "2026-10-18T21:22:00+08:00",
+      "note": "央广财经；日程不等于已发生的利好"
+    },
+    {
+      "id": "cls",
+      "title": "财联社：10月22日连板股分析",
+      "url": "https://www.cls.cn/detail/2512228",
+      "published_at": "2026-10-22T15:51:58+08:00",
+      "note": "非ST、非退市口径；全市场下跌数为约数"
+    },
+    {
+      "id": "choice",
+      "title": "Choice：10月22日涨停复盘",
+      "url": "https://finance.eastmoney.com/a/202610223904061256.html",
+      "published_at": "2026-10-22T15:19:00+08:00"
+    },
+    {
+      "id": "external",
+      "title": "财联社：10月22日港股收盘",
+      "url": "https://www.cls.cn/detail/2512278",
+      "published_at": "2026-10-22T16:42:00+08:00"
+    }
+  ],
+  "dimensions": [
+    {
+      "key": "trend",
+      "score": 4,
+      "reason": "三大指数均低于MA5与MA20。上证MA20为3813.14，收于3658.03；创业板单日跌4.37%。趋势仍弱。",
+      "source_ids": [
+        "prices"
+      ]
+    },
+    {
+      "key": "volume",
+      "score": 6,
+      "reason": "沪深成交1.5287万亿元，较前日增6.95%，但价格同步走弱。放量尚未转化为有效承接。",
+      "source_ids": [
+        "prices",
+        "choice"
+      ]
+    },
+    {
+      "key": "breadth",
+      "score": 2,
+      "reason": "财联社报道近5000只个股下跌，赚钱效应显著恶化；不把约数伪装成精确下跌占比。",
+      "source_ids": [
+        "cls"
+      ]
+    },
+    {
+      "key": "sentiment",
+      "score": 3,
+      "reason": "涨停33只，连板9只，连板晋级率25%。Choice封板率55.93%，短线容错率偏低。",
+      "source_ids": [
+        "cls",
+        "choice"
+      ]
+    },
+    {
+      "key": "theme",
+      "score": 7,
+      "reason": "机器人存在局部活跃，大业股份5连板；强势集中在少数方向，持续承接尚待验证。",
+      "source_ids": [
+        "cls"
+      ]
+    },
+    {
+      "key": "policy",
+      "score": 6,
+      "reason": "科技与产业创新政策提供方向支持，但前三季度GDP增4.6%、固定资产投资下滑，宏观需求仍有压力。",
+      "source_ids": [
+        "policy",
+        "macro"
+      ]
+    },
+    {
+      "key": "external",
+      "score": 1,
+      "reason": "港股科技方向同步承压，恒生科技指数跌5.03%，外部风险偏好不利。",
+      "source_ids": [
+        "external"
+      ]
+    },
+    {
+      "key": "events",
+      "score": 1,
+      "reason": "三季报密集披露与当周解禁日程叠加，个股预期差和隔夜跳空仍需防范。日程不能视为已发生结果。",
+      "source_ids": [
+        "events"
+      ]
+    }
+  ],
+  "metrics": {
+    "limit_up": 33,
+    "broken": 26,
+    "seal_rate": 55.93,
+    "continuation": 25,
+    "scope": "封板率采用Choice；连板晋级率采用财联社非ST、非退市口径。跌停来源范围不一致，未混算风险闸门。"
+  },
+  "conditions": [
+    {
+      "key": "seal",
+      "status": "fail",
+      "detail": "55.93%，低于70%观察线"
+    },
+    {
+      "key": "breadth",
+      "status": "fail",
+      "detail": "近5000股下跌，尚未修复"
+    },
+    {
+      "key": "theme",
+      "status": "unknown",
+      "detail": "机器人局部强，仍需回踩承接"
+    }
+  ],
+  "reasons": [
+    "三大指数均处于短期均线下方，趋势偏弱。",
+    "下跌伴随放量，不能直接当成进场资金。",
+    "封板率偏低，局部机器人强势尚不足以覆盖市场风险。"
+  ]
+}

@@ -1,0 +1,2259 @@
+{
+  "query": "焦点复盘",
+  "start": "2025-10-13",
+  "rows": [
+    {
+      "id": 2512417,
+      "published_at": "2026-10-22T17:50:01+08:00",
+      "title": "【焦点复盘】沪指失守3700点再创年内新低，“易中天”三巨头均跌超8%，工行、建行逆势创历史新高",
+      "text": "",
+      "url": "https://www.cls.cn/detail/2512417",
+      "cache": "backfill\\search\\focus-000.json",
+      "retrieved_at": "2026-10-23T16:06:17.958325+08:00"
+    },
+    {
+      "id": 2511149,
+      "published_at": "2026-10-21T17:23:53+08:00",
+      "title": "【焦点复盘】创指失守2700点续创年内新低，“宁王”市值单日“蒸发”近1500亿，端侧AI概念活跃依旧",
+      "text": "",
+      "url": "https://www.cls.cn/detail/2511149",
+      "cache": "backfill\\search\\focus-000.json",
+      "retrieved_at": "2026-10-23T16:06:17.958325+08:00"
+    },
+    {
+      "id": 2509936,
+      "published_at": "2026-10-20T17:22:22+08:00",
+      "title": "【焦点复盘】沪指日线3连涨收复5日线，物理AI概念火热依旧，大金融板块逆势走弱",
+      "text": "",
+      "url": "https://www.cls.cn/detail/2509936",
+      "cache": "backfill\\search\\focus-000.json",
+      "retrieved_at": "2026-10-23T16:06:17.958325+08:00"
+    },
+    {
+      "id": 2508604,
+      "published_at": "2026-10-19T17:07:35+08:00",
+      "title": "【焦点复盘】沪指低开高走涨0.39%，物理AI概念异军突起，工行重夺总市值“一哥”",
+      "text": "",
+      "url": "https://www.cls.cn/detail/2508604",
+      "cache": "backfill\\search\\focus-000.json",
+      "retrieved_at": "2026-10-23T16:06:17.958325+08:00"
+    },
+    {
+      "id": 2506984,
+      "published_at": "2026-10-16T17:26:55+08:00",
+      "title": "【焦点复盘】沪指冲高回落涨0.24%，宽基ETF尾盘再度放量，PCB概念遭深幅回调",
+      "text": "",
+      "url": "https://www.cls.cn/detail/2506984",
+      "cache": "backfill\\search\\focus-000.json",
+      "retrieved_at": "2026-10-23T16:06:17.958325+08:00"
+    },
+    {
+      "id": 2505833,
+      "published_at": "2026-10-15T17:33:04+08:00",
+      "title": "【焦点复盘】大金融逆势护盘提振有限，创业板指跌近3%续创年内新低，长鑫科技总市值跌破3万亿",
+      "text": "",
+      "url": "https://www.cls.cn/detail/2505833",
+      "cache": "backfill\\search\\focus-000.json",
+      "retrieved_at": "2026-10-23T16:06:17.958325+08:00"
+    },
+    {
+      "id": 2504650,
+      "published_at": "2026-10-14T17:31:53+08:00",
+      "title": "【焦点复盘】科技权重股持续低迷，创业板指再创年内收盘新低，AI漫剧概念火热依旧",
+      "text": "",
+      "url": "https://www.cls.cn/detail/2504650",
+      "cache": "backfill\\search\\focus-000.json",
+      "retrieved_at": "2026-10-23T16:06:17.958325+08:00"
+    },
+    {
+      "id": 2503504,
+      "published_at": "2026-10-13T17:24:39+08:00",
+      "title": "【焦点复盘】指数全天再现“深V”反弹，算力硬件股大面积回暖，冰雪经济领涨大消费板块",
+      "text": "",
+      "url": "https://www.cls.cn/detail/2503504",
+      "cache": "backfill\\search\\focus-000.json",
+      "retrieved_at": "2026-10-23T16:06:17.958325+08:00"
+    },
+    {
+      "id": 2502310,
+      "published_at": "2026-10-12T17:17:01+08:00",
+      "title": "【焦点复盘】市场再陷缩量探底，两市成交额跌破1.6万亿，AI漫剧概念获持续热捧",
+      "text": "",
+      "url": "https://www.cls.cn/detail/2502310",
+      "cache": "backfill\\search\\focus-000.json",
+      "retrieved_at": "2026-10-23T16:06:17.958325+08:00"
+    },
+    {
+      "id": 2500613,
+      "published_at": "2026-10-09T17:40:05+08:00",
+      "title": "【焦点复盘】大金融板块强势做多提振人气，创业板指3000点大关失而复得，大消费板块卷土重来",
+      "text": "",
+      "url": "https://www.cls.cn/detail/2500613",
+      "cache": "backfill\\search\\focus-000.json",
+      "retrieved_at": "2026-10-23T16:06:17.958325+08:00"
+    },
+    {
+      "id": 2499589,
+      "published_at": "2026-10-08T17:38:17+08:00",
+      "title": "【焦点复盘】科创50放量跌近5%，算力硬件端再遭重挫，固态电池概念一枝独秀",
+      "text": "",
+      "url": "https://www.cls.cn/detail/2499589",
+      "cache": "backfill\\search\\focus-000.json",
+      "retrieved_at": "2026-10-23T16:06:17.958325+08:00"
+    },
+    {
+      "id": 2496354,
+      "published_at": "2026-09-30T17:32:29+08:00",
+      "title": "【焦点复盘】科创50放量中阴再失年线，房地产板块全天现“深V”逆转，两股盘中上演“地天板”",
+      "text": "",
+      "url": "https://www.cls.cn/detail/2496354",
+      "cache": "backfill\\search\\focus-000.json",
+      "retrieved_at": "2026-10-23T16:06:17.958325+08:00"
+    },
+    {
+      "id": 2495305,
+      "published_at": "2026-09-29T17:33:15+08:00",
+      "title": "【焦点复盘】市场极致地量反弹结束四连阴，两市成交额萎缩近3000亿，固态电池概念掀批量涨停",
+      "text": "",
+      "url": "https://www.cls.cn/detail/2495305",
+      "cache": "backfill\\search\\focus-000.json",
+      "retrieved_at": "2026-10-23T16:06:17.958325+08:00"
+    },
+    {
+      "id": 2494204,
+      "published_at": "2026-09-28T17:25:51+08:00",
+      "title": "【焦点复盘】深成指四连阴创年内新低，算力硬件股大面积退潮，“易中天”三巨头均大跌超8%",
+      "text": "",
+      "url": "https://www.cls.cn/detail/2494204",
+      "cache": "backfill\\search\\focus-000.json",
+      "retrieved_at": "2026-10-23T16:06:17.958325+08:00"
+    },
+    {
+      "id": 2492433,
+      "published_at": "2026-09-24T17:38:09+08:00",
+      "title": "【焦点复盘】沪指光脚中阴再失3900点，全市场超4300股飘绿，近端次新人气股遭30cm2连跌停",
+      "text": "",
+      "url": "https://www.cls.cn/detail/2492433",
+      "cache": "backfill\\search\\focus-000.json",
+      "retrieved_at": "2026-10-23T16:06:17.958325+08:00"
+    },
+    {
+      "id": 2491281,
+      "published_at": "2026-09-23T17:24:37+08:00",
+      "title": "【焦点复盘】沪指缩量震荡跌0.39%，高位人气股大面积退潮，三只近端次新股均跌超20%",
+      "text": "",
+      "url": "https://www.cls.cn/detail/2491281",
+      "cache": "backfill\\search\\focus-000.json",
+      "retrieved_at": "2026-10-23T16:06:17.958325+08:00"
+    },
+    {
+      "id": 2490193,
+      "published_at": "2026-09-22T17:23:27+08:00",
+      "title": "【焦点复盘】市场全天现放量滞涨，AI软硬件再度分化，两只新股上市首日双双大涨超6.8倍",
+      "text": "",
+      "url": "https://www.cls.cn/detail/2490193",
+      "cache": "backfill\\search\\focus-000.json",
+      "retrieved_at": "2026-10-23T16:06:17.958325+08:00"
+    },
+    {
+      "id": 2489054,
+      "published_at": "2026-09-21T17:15:53+08:00",
+      "title": "【焦点复盘】沪指缩量反弹收复60日线，全市场超4500股飘红，30多只“华字辈”股强势涨停",
+      "text": "",
+      "url": "https://www.cls.cn/detail/2489054",
+      "cache": "backfill\\search\\focus-000.json",
+      "retrieved_at": "2026-10-23T16:06:17.958325+08:00"
+    },
+    {
+      "id": 2487300,
+      "published_at": "2026-09-18T17:36:13+08:00",
+      "title": "【焦点复盘】沪指放量涨近1%收复3900点，近端次新人气股2日最高涨超17倍，地产股午后异军突起",
+      "text": "",
+      "url": "https://www.cls.cn/detail/2487300",
+      "cache": "backfill\\search\\focus-000.json",
+      "retrieved_at": "2026-10-23T16:06:17.958325+08:00"
+    },
+    {
+      "id": 2486220,
+      "published_at": "2026-09-17T17:19:28+08:00",
+      "title": "【焦点复盘】科创50缩量十字星止步四连阳，燧原科技连续两日创上市新高，宇树科技总市值重上2000亿",
+      "text": "",
+      "url": "https://www.cls.cn/detail/2486220",
+      "cache": "backfill\\search\\focus-000.json",
+      "retrieved_at": "2026-10-23T16:06:17.958325+08:00"
+    },
+    {
+      "id": 2485084,
+      "published_at": "2026-09-16T17:25:25+08:00",
+      "title": "【焦点复盘】创业板指低开高走涨近2%，硬科技成长主导放量普涨，多只PCB概念股创历史新高",
+      "text": "",
+      "url": "https://www.cls.cn/detail/2485084",
+      "cache": "backfill\\search\\focus-001.json",
+      "retrieved_at": "2026-10-23T16:06:52.018398+08:00"
+    },
+    {
+      "id": 2483825,
+      "published_at": "2026-09-15T17:45:22+08:00",
+      "title": "【焦点复盘】芯片产业链强势做多，科创50涨1.55%终结5连跌，“宁王”单日蒸发超900亿市值",
+      "text": "",
+      "url": "https://www.cls.cn/detail/2483825",
+      "cache": "backfill\\search\\focus-001.json",
+      "retrieved_at": "2026-10-23T16:06:52.018398+08:00"
+    },
+    {
+      "id": 2482464,
+      "published_at": "2026-09-14T17:13:14+08:00",
+      "title": "【焦点复盘】科创50时隔近2年再度失守年线，两市成交额刷新年内次低，汽车产业链现久违大涨",
+      "text": "",
+      "url": "https://www.cls.cn/detail/2482464",
+      "cache": "backfill\\search\\focus-001.json",
+      "retrieved_at": "2026-10-23T16:06:52.018398+08:00"
+    },
+    {
+      "id": 2480904,
+      "published_at": "2026-09-11T17:33:54+08:00",
+      "title": "【焦点复盘】科技股引领指数放量“深V”，科创50年线失而复得，PCB概念多股强势涨停",
+      "text": "",
+      "url": "https://www.cls.cn/detail/2480904",
+      "cache": "backfill\\search\\focus-001.json",
+      "retrieved_at": "2026-10-23T16:06:52.018398+08:00"
+    },
+    {
+      "id": 2479641,
+      "published_at": "2026-09-10T17:14:47+08:00",
+      "title": "【焦点复盘】沪指窄幅震荡跌0.43%，两市成交额4连降创年内次低，粮食概念现大面积退潮",
+      "text": "",
+      "url": "https://www.cls.cn/detail/2479641",
+      "cache": "backfill\\search\\focus-001.json",
+      "retrieved_at": "2026-10-23T16:06:52.018398+08:00"
+    },
+    {
+      "id": 2478355,
+      "published_at": "2026-09-09T17:30:12+08:00",
+      "title": "【焦点复盘】沪指缩量涨0.28%收复10日线，农业、化肥板块活跃依旧，AI应用端全天低迷",
+      "text": "",
+      "url": "https://www.cls.cn/detail/2478355",
+      "cache": "backfill\\search\\focus-001.json",
+      "retrieved_at": "2026-10-23T16:06:52.018398+08:00"
+    },
+    {
+      "id": 2477163,
+      "published_at": "2026-09-08T17:27:04+08:00",
+      "title": "【焦点复盘】三大指数收盘涨跌互现，超强厄尔尼诺引爆糖业股，算力硬件端集体熄火",
+      "text": "",
+      "url": "https://www.cls.cn/detail/2477163",
+      "cache": "backfill\\search\\focus-001.json",
+      "retrieved_at": "2026-10-23T16:06:52.018398+08:00"
+    },
+    {
+      "id": 2475972,
+      "published_at": "2026-09-07T17:04:16+08:00",
+      "title": "【焦点复盘】AI软硬件联袂做多，创业板指百点长阳收复10日线，光模块龙头总市值重上1万亿",
+      "text": "",
+      "url": "https://www.cls.cn/detail/2475972",
+      "cache": "backfill\\search\\focus-001.json",
+      "retrieved_at": "2026-10-23T16:06:52.018398+08:00"
+    },
+    {
+      "id": 2474429,
+      "published_at": "2026-09-04T17:33:59+08:00",
+      "title": "【焦点复盘】科创50高开低走跌超2%，AI产业链现“硬切软”行情，粮食概念卷土重来",
+      "text": "",
+      "url": "https://www.cls.cn/detail/2474429",
+      "cache": "backfill\\search\\focus-001.json",
+      "retrieved_at": "2026-10-23T16:06:52.018398+08:00"
+    },
+    {
+      "id": 2473261,
+      "published_at": "2026-09-03T17:20:19+08:00",
+      "title": "【焦点复盘】创业板指冲高回落收3连阴，两市成交额连续2日创阶段地量，培育钻石概念异军突起",
+      "text": "",
+      "url": "https://www.cls.cn/detail/2473261",
+      "cache": "backfill\\search\\focus-001.json",
+      "retrieved_at": "2026-10-23T16:06:52.018398+08:00"
+    },
+    {
+      "id": 2472111,
+      "published_at": "2026-09-02T17:38:54+08:00",
+      "title": "【焦点复盘】沪指跌近1%止步日线6连阳，两市成交额刷新近5个月地量，多只北交所个股收获30cm涨停",
+      "text": "",
+      "url": "https://www.cls.cn/detail/2472111",
+      "cache": "backfill\\search\\focus-001.json",
+      "retrieved_at": "2026-10-23T16:06:52.018398+08:00"
+    },
+    {
+      "id": 2470906,
+      "published_at": "2026-09-01T17:13:20+08:00",
+      "title": "【焦点复盘】创业板指跌超1%再失年线，AI硬件股全天低迷，粮食概念再现大面积涨停",
+      "text": "",
+      "url": "https://www.cls.cn/detail/2470906",
+      "cache": "backfill\\search\\focus-001.json",
+      "retrieved_at": "2026-10-23T16:06:52.018398+08:00"
+    },
+    {
+      "id": 2469672,
+      "published_at": "2026-08-31T17:21:12+08:00",
+      "title": "【焦点复盘】沪指日线5连阳收复年线，AI应用端掀批量涨停，超节点概念午后大放异彩",
+      "text": "",
+      "url": "https://www.cls.cn/detail/2469672",
+      "cache": "backfill\\search\\focus-001.json",
+      "retrieved_at": "2026-10-23T16:06:52.018398+08:00"
+    },
+    {
+      "id": 2467867,
+      "published_at": "2026-08-28T17:30:20+08:00",
+      "title": "【焦点复盘】双创指数均跌逾1%终结3连阳，粮食概念一枝独秀再掀批量涨停，AI应用端现久违大涨",
+      "text": "",
+      "url": "https://www.cls.cn/detail/2467867",
+      "cache": "backfill\\search\\focus-001.json",
+      "retrieved_at": "2026-10-23T16:06:52.018398+08:00"
+    },
+    {
+      "id": 2466294,
+      "published_at": "2026-08-27T17:09:08+08:00",
+      "title": "【焦点复盘】大金融、AI硬件携手做多，科创50放量涨近4%，两市成交额重上2万亿",
+      "text": "",
+      "url": "https://www.cls.cn/detail/2466294",
+      "cache": "backfill\\search\\focus-001.json",
+      "retrieved_at": "2026-10-23T16:06:52.018398+08:00"
+    },
+    {
+      "id": 2465007,
+      "published_at": "2026-08-26T17:21:18+08:00",
+      "title": "【焦点复盘】证券板块强势做多，沪指低开高走收复20日线，创新药概念全天表现分化",
+      "text": "",
+      "url": "https://www.cls.cn/detail/2465007",
+      "cache": "backfill\\search\\focus-001.json",
+      "retrieved_at": "2026-10-23T16:06:52.018398+08:00"
+    },
+    {
+      "id": 2463671,
+      "published_at": "2026-08-25T17:24:04+08:00",
+      "title": "【焦点复盘】大消费、创新药板块联袂做多，沪指缩量反弹收复30日均线，两市成交额再创4个月地量",
+      "text": "",
+      "url": "https://www.cls.cn/detail/2463671",
+      "cache": "backfill\\search\\focus-001.json",
+      "retrieved_at": "2026-10-23T16:06:52.018398+08:00"
+    },
+    {
+      "id": 2462460,
+      "published_at": "2026-08-24T17:33:02+08:00",
+      "title": "【焦点复盘】科创50放量失守半年线，全市场近4000股飘绿，CPO、CRO概念双双大跌",
+      "text": "",
+      "url": "https://www.cls.cn/detail/2462460",
+      "cache": "backfill\\search\\focus-001.json",
+      "retrieved_at": "2026-10-23T16:06:52.018398+08:00"
+    },
+    {
+      "id": 2460810,
+      "published_at": "2026-08-21T17:26:39+08:00",
+      "title": "【焦点复盘】三大指数全天缩量反弹，两市成交额创4个多月地量，创新药板块现“一日游”行情",
+      "text": "",
+      "url": "https://www.cls.cn/detail/2460810",
+      "cache": "backfill\\search\\focus-001.json",
+      "retrieved_at": "2026-10-23T16:06:52.018398+08:00"
+    },
+    {
+      "id": 2459577,
+      "published_at": "2026-08-20T17:15:12+08:00",
+      "title": "【焦点复盘】沪指缩量十字星收复3900点，两市成交额萎缩超4300亿，多只疫苗股20cm涨停",
+      "text": "",
+      "url": "https://www.cls.cn/detail/2459577",
+      "cache": "backfill\\search\\focus-001.json",
+      "retrieved_at": "2026-10-23T16:06:52.018398+08:00"
+    },
+    {
+      "id": 2458380,
+      "published_at": "2026-08-19T17:27:00+08:00",
+      "title": "【焦点复盘】沪指近百点长阴失守3900点，全市场超360股跌超10%，机器人概念现深幅调整",
+      "text": "",
+      "url": "https://www.cls.cn/detail/2458380",
+      "cache": "backfill\\search\\focus-002.json",
+      "retrieved_at": "2026-10-23T16:06:52.423017+08:00"
+    },
+    {
+      "id": 2457238,
+      "published_at": "2026-08-18T17:42:47+08:00",
+      "title": "【焦点复盘】沪指“V型反转”收复60日线，超强厄尔尼诺引爆粮食概念，创新药概念高位“熄火”",
+      "text": "",
+      "url": "https://www.cls.cn/detail/2457238",
+      "cache": "backfill\\search\\focus-002.json",
+      "retrieved_at": "2026-10-23T16:06:52.423017+08:00"
+    },
+    {
+      "id": 2456074,
+      "published_at": "2026-08-17T17:00:33+08:00",
+      "title": "【焦点复盘】存储、光通信产业链合力做多，沪指放量中阳收复年线，全市场超150股涨超10%",
+      "text": "",
+      "url": "https://www.cls.cn/detail/2456074",
+      "cache": "backfill\\search\\focus-002.json",
+      "retrieved_at": "2026-10-23T16:06:52.423017+08:00"
+    },
+    {
+      "id": 2454650,
+      "published_at": "2026-08-14T17:36:22+08:00",
+      "title": "【焦点复盘】创业板指强势收复30日线，算力租赁概念再度爆发，光通信人气股录得20cm五连板",
+      "text": "",
+      "url": "https://www.cls.cn/detail/2454650",
+      "cache": "backfill\\search\\focus-002.json",
+      "retrieved_at": "2026-10-23T16:06:52.423017+08:00"
+    },
+    {
+      "id": 2453548,
+      "published_at": "2026-08-13T17:30:40+08:00",
+      "title": "【焦点复盘】科创50高开低走跌超1%，两市成交额放大近4000亿，电力板块午后逆势拉升",
+      "text": "",
+      "url": "https://www.cls.cn/detail/2453548",
+      "cache": "backfill\\search\\focus-002.json",
+      "retrieved_at": "2026-10-23T16:06:52.423017+08:00"
+    },
+    {
+      "id": 2452438,
+      "published_at": "2026-08-12T17:12:53+08:00",
+      "title": "【焦点复盘】科技成长股主导缩量普涨，全市场超4100股飘红，大消费板块午后再度爆发",
+      "text": "",
+      "url": "https://www.cls.cn/detail/2452438",
+      "cache": "backfill\\search\\focus-002.json",
+      "retrieved_at": "2026-10-23T16:06:52.423017+08:00"
+    },
+    {
+      "id": 2451345,
+      "published_at": "2026-08-11T17:35:37+08:00",
+      "title": "【焦点复盘】沪指缩量探底终结5连阳，算力租赁概念逆势活跃，有色板块现深幅调整",
+      "text": "",
+      "url": "https://www.cls.cn/detail/2451345",
+      "cache": "backfill\\search\\focus-002.json",
+      "retrieved_at": "2026-10-23T16:06:52.423017+08:00"
+    },
+    {
+      "id": 2450137,
+      "published_at": "2026-08-10T17:16:55+08:00",
+      "title": "【焦点复盘】微盘股指数7连涨站上年线，全市场近百股涨停，AI赋能持续催热创新药概念",
+      "text": "",
+      "url": "https://www.cls.cn/detail/2450137",
+      "cache": "backfill\\search\\focus-002.json",
+      "retrieved_at": "2026-10-23T16:06:52.423017+08:00"
+    },
+    {
+      "id": 2448537,
+      "published_at": "2026-08-07T17:51:21+08:00",
+      "title": "【焦点复盘】创业板指终结周线6连阴，AI硬件端持续回暖，4600亿CXO龙头创近4年新高",
+      "text": "",
+      "url": "https://www.cls.cn/detail/2448537",
+      "cache": "backfill\\search\\focus-002.json",
+      "retrieved_at": "2026-10-23T16:06:52.423017+08:00"
+    },
+    {
+      "id": 2447475,
+      "published_at": "2026-08-06T17:31:22+08:00",
+      "title": "【焦点复盘】沪指日线3连阳收复3900点，英伟达入局引爆6G概念，时隔半年多再现10连板大牛股",
+      "text": "",
+      "url": "https://www.cls.cn/detail/2447475",
+      "cache": "backfill\\search\\focus-002.json",
+      "retrieved_at": "2026-10-23T16:06:52.423017+08:00"
+    },
+    {
+      "id": 2446407,
+      "published_at": "2026-08-05T17:51:53+08:00",
+      "title": "【焦点复盘】AI硬件端持续回暖，科创50指数连续2日涨逾4%，光模块龙头5日内2度刷新历史天量",
+      "text": "",
+      "url": "https://www.cls.cn/detail/2446407",
+      "cache": "backfill\\search\\focus-002.json",
+      "retrieved_at": "2026-10-23T16:06:52.423017+08:00"
+    },
+    {
+      "id": 2445284,
+      "published_at": "2026-08-04T17:29:34+08:00",
+      "title": "【焦点复盘】科创50涨超4%终结五连阴，TMT产业链全线反攻，“易中天”三巨头均涨超13%",
+      "text": "",
+      "url": "https://www.cls.cn/detail/2445284",
+      "cache": "backfill\\search\\focus-002.json",
+      "retrieved_at": "2026-10-23T16:06:52.423017+08:00"
+    },
+    {
+      "id": 2444244,
+      "published_at": "2026-08-03T17:40:21+08:00",
+      "title": "【焦点复盘】创业板指弱势震荡再失年线，AI软硬件持续分化，电网产业链卷土重来",
+      "text": "",
+      "url": "https://www.cls.cn/detail/2444244",
+      "cache": "backfill\\search\\focus-002.json",
+      "retrieved_at": "2026-10-23T16:06:52.423017+08:00"
+    },
+    {
+      "id": 2442703,
+      "published_at": "2026-07-31T17:28:57+08:00",
+      "title": "【焦点复盘】科创50高开低走录得日线4连阴，算力硬件股批量炸板回落，机器人概念卷土重来",
+      "text": "",
+      "url": "https://www.cls.cn/detail/2442703",
+      "cache": "backfill\\search\\focus-002.json",
+      "retrieved_at": "2026-10-23T16:06:52.423017+08:00"
+    },
+    {
+      "id": 2441507,
+      "published_at": "2026-07-30T17:33:50+08:00",
+      "title": "【焦点复盘】科创50跌超5%失守半年线，存储芯片股午后局部反攻，万亿光模块龙头现天量巨震",
+      "text": "",
+      "url": "https://www.cls.cn/detail/2441507",
+      "cache": "backfill\\search\\focus-002.json",
+      "retrieved_at": "2026-10-23T16:06:52.423017+08:00"
+    },
+    {
+      "id": 2440260,
+      "published_at": "2026-07-29T17:28:56+08:00",
+      "title": "【焦点复盘】双创指数现放量“深V”，游戏等AI应用端持续回暖，长鑫科技午后一度涨近15%",
+      "text": "",
+      "url": "https://www.cls.cn/detail/2440260",
+      "cache": "backfill\\search\\focus-002.json",
+      "retrieved_at": "2026-10-23T16:06:52.423017+08:00"
+    },
+    {
+      "id": 2439100,
+      "published_at": "2026-07-28T17:31:12+08:00",
+      "title": "【焦点复盘】双创指数均大跌超6%，英伟达产业链全线退潮，银行等红利股获逆势抱团",
+      "text": "",
+      "url": "https://www.cls.cn/detail/2439100",
+      "cache": "backfill\\search\\focus-002.json",
+      "retrieved_at": "2026-10-23T16:06:52.423017+08:00"
+    },
+    {
+      "id": 2437935,
+      "published_at": "2026-07-27T17:19:08+08:00",
+      "title": "【焦点复盘】科创50深V回升收复1800点，全市场超180股涨逾10%，长鑫科技上市首日登顶总市值“一哥”",
+      "text": "",
+      "url": "https://www.cls.cn/detail/2437935",
+      "cache": "backfill\\search\\focus-002.json",
+      "retrieved_at": "2026-10-23T16:06:52.423017+08:00"
+    },
+    {
+      "id": 2436413,
+      "published_at": "2026-07-24T17:17:15+08:00",
+      "title": "【焦点复盘】沪指缩量跌1.61%终结四连阳，全市场超4900股飘绿，电网设备股活跃不减",
+      "text": "",
+      "url": "https://www.cls.cn/detail/2436413",
+      "cache": "backfill\\search\\focus-002.json",
+      "retrieved_at": "2026-10-23T16:06:52.423017+08:00"
+    },
+    {
+      "id": 2435218,
+      "published_at": "2026-07-23T17:31:53+08:00",
+      "title": "【焦点复盘】科创50高开低走跌3.78%，两市成交额萎缩4500亿，顺周期资源股持续爆发",
+      "text": "",
+      "url": "https://www.cls.cn/detail/2435218",
+      "cache": "backfill\\search\\focus-002.json",
+      "retrieved_at": "2026-10-23T16:06:52.423017+08:00"
+    },
+    {
+      "id": 2434004,
+      "published_at": "2026-07-22T17:23:42+08:00",
+      "title": "【焦点复盘】双创指数全天缩量调整，存储产业链再度承压，避险资金逆势抱团资源股",
+      "text": "",
+      "url": "https://www.cls.cn/detail/2434004",
+      "cache": "backfill\\search\\focus-003.json",
+      "retrieved_at": "2026-10-23T16:06:52.832070+08:00"
+    },
+    {
+      "id": 2432754,
+      "published_at": "2026-07-21T17:29:12+08:00",
+      "title": "【焦点复盘】科创50涨超10%创历史第三单日涨幅，大批科技人气股日内上演“地天板”",
+      "text": "",
+      "url": "https://www.cls.cn/detail/2432754",
+      "cache": "backfill\\search\\focus-003.json",
+      "retrieved_at": "2026-10-23T16:06:52.832070+08:00"
+    },
+    {
+      "id": 2431452,
+      "published_at": "2026-07-20T17:28:05+08:00",
+      "title": "【焦点复盘】高股息红利股强势做多，上证50高开高走涨超3%，1万亿油气巨头时隔4个多月收获涨停",
+      "text": "",
+      "url": "https://www.cls.cn/detail/2431452",
+      "cache": "backfill\\search\\focus-003.json",
+      "retrieved_at": "2026-10-23T16:06:52.832070+08:00"
+    },
+    {
+      "id": 2429653,
+      "published_at": "2026-07-17T17:29:26+08:00",
+      "title": "【焦点复盘】创业板指录得周线四连阴，全市场超640股跌逾10%，电力板块逆势活跃",
+      "text": "",
+      "url": "https://www.cls.cn/detail/2429653",
+      "cache": "backfill\\search\\focus-003.json",
+      "retrieved_at": "2026-10-23T16:06:52.832070+08:00"
+    },
+    {
+      "id": 2428544,
+      "published_at": "2026-07-16T17:29:56+08:00",
+      "title": "【焦点复盘】科创50连续2日大跌超4%，算力硬件板块持续低迷，850亿“中药茅”现久违涨停",
+      "text": "",
+      "url": "https://www.cls.cn/detail/2428544",
+      "cache": "backfill\\search\\focus-003.json",
+      "retrieved_at": "2026-10-23T16:06:52.832070+08:00"
+    },
+    {
+      "id": 2427336,
+      "published_at": "2026-07-15T17:38:33+08:00",
+      "title": "【焦点复盘】科创50长阴反包逼近30日线，算力硬件股全天低迷，大消费板块全线回暖",
+      "text": "",
+      "url": "https://www.cls.cn/detail/2427336",
+      "cache": "backfill\\search\\focus-003.json",
+      "retrieved_at": "2026-10-23T16:06:52.832070+08:00"
+    },
+    {
+      "id": 2425998,
+      "published_at": "2026-07-14T17:28:23+08:00",
+      "title": "【焦点复盘】沪指午后深V逆转收复年线，全市场超120股涨逾10%，市场现久违“煤飞色舞”行情",
+      "text": "",
+      "url": "https://www.cls.cn/detail/2425998",
+      "cache": "backfill\\search\\focus-003.json",
+      "retrieved_at": "2026-10-23T16:06:52.832070+08:00"
+    },
+    {
+      "id": 2424673,
+      "published_at": "2026-07-13T17:32:31+08:00",
+      "title": "【焦点复盘】时隔15个月沪指再度跌破年线，全市场超400股跌超10%，资金逆势抱团红利股",
+      "text": "",
+      "url": "https://www.cls.cn/detail/2424673",
+      "cache": "backfill\\search\\focus-003.json",
+      "retrieved_at": "2026-10-23T16:06:52.832070+08:00"
+    },
+    {
+      "id": 2423004,
+      "published_at": "2026-07-10T17:43:22+08:00",
+      "title": "【焦点复盘】科创50跌5.53%创成交额历史天量，个股炸板率激增至五成，TMT产业链大面积降温",
+      "text": "",
+      "url": "https://www.cls.cn/detail/2423004",
+      "cache": "backfill\\search\\focus-003.json",
+      "retrieved_at": "2026-10-23T16:06:52.832070+08:00"
+    },
+    {
+      "id": 2421756,
+      "published_at": "2026-07-09T17:30:04+08:00",
+      "title": "【焦点复盘】科创50涨8.41%创单日历史第四大涨幅，中芯国际等多只成分股创上市新高",
+      "text": "",
+      "url": "https://www.cls.cn/detail/2421756",
+      "cache": "backfill\\search\\focus-003.json",
+      "retrieved_at": "2026-10-23T16:06:52.832070+08:00"
+    },
+    {
+      "id": 2420504,
+      "published_at": "2026-07-08T17:34:23+08:00",
+      "title": "【焦点复盘】三大指数高开低走录得日线3连阴，AI服务器、华为昇腾概念逆势活跃",
+      "text": "",
+      "url": "https://www.cls.cn/detail/2420504",
+      "cache": "backfill\\search\\focus-003.json",
+      "retrieved_at": "2026-10-23T16:06:52.832070+08:00"
+    },
+    {
+      "id": 2419286,
+      "published_at": "2026-07-07T17:28:30+08:00",
+      "title": "【焦点复盘】三大指数全天缩量探底，全市场仅30余股涨停，资金逆势抱团半导体设备股",
+      "text": "",
+      "url": "https://www.cls.cn/detail/2419286",
+      "cache": "backfill\\search\\focus-003.json",
+      "retrieved_at": "2026-10-23T16:06:52.832070+08:00"
+    },
+    {
+      "id": 2418140,
+      "published_at": "2026-07-06T17:55:58+08:00",
+      "title": "【焦点复盘】科创50“深V”回升结束3连跌，新版“韬定律”提振芯片产业链，机器人概念遭深幅回调",
+      "text": "",
+      "url": "https://www.cls.cn/detail/2418140",
+      "cache": "backfill\\search\\focus-003.json",
+      "retrieved_at": "2026-10-23T16:06:52.832070+08:00"
+    },
+    {
+      "id": 2416647,
+      "published_at": "2026-07-03T17:43:13+08:00",
+      "title": "【焦点复盘】市场全天现缩量震荡，超160家个股涨逾10%，大批芯片强势股遭遇补跌",
+      "text": "",
+      "url": "https://www.cls.cn/detail/2416647",
+      "cache": "backfill\\search\\focus-003.json",
+      "retrieved_at": "2026-10-23T16:06:52.832070+08:00"
+    },
+    {
+      "id": 2415483,
+      "published_at": "2026-07-02T17:52:17+08:00",
+      "title": "【焦点复盘】科创50跌7.7%创年内单日最大跌幅，多只硬科技权重股遭遇跌停，贵金属板块逆势领涨",
+      "text": "",
+      "url": "https://www.cls.cn/detail/2415483",
+      "cache": "backfill\\search\\focus-003.json",
+      "retrieved_at": "2026-10-23T16:06:52.832070+08:00"
+    },
+    {
+      "id": 2414302,
+      "published_at": "2026-07-01T17:20:19+08:00",
+      "title": "【焦点复盘】沪指日线3连阳收复4100点，算力硬件股遭深幅回调，养殖板块大面积爆发",
+      "text": "",
+      "url": "https://www.cls.cn/detail/2414302",
+      "cache": "backfill\\search\\focus-003.json",
+      "retrieved_at": "2026-10-23T16:06:52.832070+08:00"
+    },
+    {
+      "id": 2413064,
+      "published_at": "2026-06-30T17:40:18+08:00",
+      "title": "【焦点复盘】创业板指高开高走涨近3%，全市场超270股涨超10%，3200亿玻璃基板龙头创历史天量",
+      "text": "",
+      "url": "https://www.cls.cn/detail/2413064",
+      "cache": "backfill\\search\\focus-003.json",
+      "retrieved_at": "2026-10-23T16:06:52.832070+08:00"
+    },
+    {
+      "id": 2411865,
+      "published_at": "2026-06-29T17:56:32+08:00",
+      "title": "【焦点复盘】沪指深V回升站稳4000点，全市场超190股涨超10%，AI硬件端内部“两极分化”",
+      "text": "",
+      "url": "https://www.cls.cn/detail/2411865",
+      "cache": "backfill\\search\\focus-003.json",
+      "retrieved_at": "2026-10-23T16:06:52.832070+08:00"
+    },
+    {
+      "id": 2410338,
+      "published_at": "2026-06-26T17:26:37+08:00",
+      "title": "【焦点复盘】沪指缩量跌超2%失守半年线，光通信概念遭重挫，半导体设备股强势依旧",
+      "text": "",
+      "url": "https://www.cls.cn/detail/2410338",
+      "cache": "backfill\\search\\focus-003.json",
+      "retrieved_at": "2026-10-23T16:06:52.832070+08:00"
+    },
+    {
+      "id": 2409229,
+      "published_at": "2026-06-25T17:35:29+08:00",
+      "title": "【焦点复盘】科创50指数连续2日涨近4%，多只存储芯片股迭创历史新高，超级电容概念大放异彩",
+      "text": "",
+      "url": "https://www.cls.cn/detail/2409229",
+      "cache": "backfill\\search\\focus-003.json",
+      "retrieved_at": "2026-10-23T16:06:52.832070+08:00"
+    },
+    {
+      "id": 2408036,
+      "published_at": "2026-06-24T17:40:37+08:00",
+      "title": "【焦点复盘】创业板、深成指缩量涨超1%，全市场超150股涨超10%，AI硬件产业链卷土重来",
+      "text": "",
+      "url": "https://www.cls.cn/detail/2408036",
+      "cache": "backfill\\search\\focus-004.json",
+      "retrieved_at": "2026-10-23T16:06:53.249593+08:00"
+    },
+    {
+      "id": 2406923,
+      "published_at": "2026-06-23T17:46:31+08:00",
+      "title": "【焦点复盘】沪指缩量调整险守4100点，硬科技内部现剧烈高低切，大金融板块继续逆势冲高",
+      "text": "",
+      "url": "https://www.cls.cn/detail/2406923",
+      "cache": "backfill\\search\\focus-004.json",
+      "retrieved_at": "2026-10-23T16:06:53.249593+08:00"
+    },
+    {
+      "id": 2405734,
+      "published_at": "2026-06-22T17:51:37+08:00",
+      "title": "【焦点复盘】沪指放量长阳收复30日均线，全市场超200股涨逾10%，AI上游材料方向持续火爆",
+      "text": "",
+      "url": "https://www.cls.cn/detail/2405734",
+      "cache": "backfill\\search\\focus-004.json",
+      "retrieved_at": "2026-10-23T16:06:53.249593+08:00"
+    },
+    {
+      "id": 2403717,
+      "published_at": "2026-06-18T17:41:16+08:00",
+      "title": "【焦点复盘】极致两极分化行情再现，硬科技方向多点开花，大金融板块全线重挫",
+      "text": "",
+      "url": "https://www.cls.cn/detail/2403717",
+      "cache": "backfill\\search\\focus-004.json",
+      "retrieved_at": "2026-10-23T16:06:53.249593+08:00"
+    },
+    {
+      "id": 2402510,
+      "published_at": "2026-06-17T17:45:40+08:00",
+      "title": "【焦点复盘】沪指尾盘翻红收复4100点，科技上游通胀行情持续火爆，4000亿存储龙头午后涨停",
+      "text": "",
+      "url": "https://www.cls.cn/detail/2402510",
+      "cache": "backfill\\search\\focus-004.json",
+      "retrieved_at": "2026-10-23T16:06:53.249593+08:00"
+    },
+    {
+      "id": 2401289,
+      "published_at": "2026-06-16T17:49:02+08:00",
+      "title": "【焦点复盘】沪指冲高回落收十字星，PCB上游材料股强者恒强，7倍大牛股尾盘大幅跳水",
+      "text": "",
+      "url": "https://www.cls.cn/detail/2401289",
+      "cache": "backfill\\search\\focus-004.json",
+      "retrieved_at": "2026-10-23T16:06:53.249593+08:00"
+    },
+    {
+      "id": 2400159,
+      "published_at": "2026-06-15T17:27:26+08:00",
+      "title": "【焦点复盘】硬科技、小金属携手发力，沪指日线6连阳收复20日均线，全市场超280股涨逾10%",
+      "text": "",
+      "url": "https://www.cls.cn/detail/2400159",
+      "cache": "backfill\\search\\focus-004.json",
+      "retrieved_at": "2026-10-23T16:06:53.249593+08:00"
+    },
+    {
+      "id": 2398416,
+      "published_at": "2026-06-12T17:27:29+08:00",
+      "title": "【焦点复盘】创业板指高开低走涨0.5%，个股炸板率超四成，半导体材料股遭深幅回调",
+      "text": "",
+      "url": "https://www.cls.cn/detail/2398416",
+      "cache": "backfill\\search\\focus-004.json",
+      "retrieved_at": "2026-10-23T16:06:53.249593+08:00"
+    },
+    {
+      "id": 2397230,
+      "published_at": "2026-06-11T17:04:03+08:00",
+      "title": "【焦点复盘】科创50缩量收涨0.62%，AI上游涨价概念多点开花，机器人、物理AI板块遭重挫",
+      "text": "",
+      "url": "https://www.cls.cn/detail/2397230",
+      "cache": "backfill\\search\\focus-004.json",
+      "retrieved_at": "2026-10-23T16:06:53.249593+08:00"
+    },
+    {
+      "id": 2396101,
+      "published_at": "2026-06-10T17:32:27+08:00",
+      "title": "【焦点复盘】科创50冲高回落跌0.65%，算力硬件板块再陷低迷，资金逆势抱团银行等红利股",
+      "text": "",
+      "url": "https://www.cls.cn/detail/2396101",
+      "cache": "backfill\\search\\focus-004.json",
+      "retrieved_at": "2026-10-23T16:06:53.249593+08:00"
+    },
+    {
+      "id": 2394903,
+      "published_at": "2026-06-09T17:27:32+08:00",
+      "title": "【焦点复盘】沪指缩量反弹收复4000点，全市场超200股涨逾10%，AI软硬件双双大涨",
+      "text": "",
+      "url": "https://www.cls.cn/detail/2394903",
+      "cache": "backfill\\search\\focus-004.json",
+      "retrieved_at": "2026-10-23T16:06:53.249593+08:00"
+    },
+    {
+      "id": 2393675,
+      "published_at": "2026-06-08T17:17:29+08:00",
+      "title": "【焦点复盘】科创50指数重挫4.3%，半导体产业链持续退潮，煤炭、银行等红利股获逆势抱团",
+      "text": "",
+      "url": "https://www.cls.cn/detail/2393675",
+      "cache": "backfill\\search\\focus-004.json",
+      "retrieved_at": "2026-10-23T16:06:53.249593+08:00"
+    },
+    {
+      "id": 2391959,
+      "published_at": "2026-06-05T17:16:43+08:00",
+      "title": "【焦点复盘】沪指冲高回落失守半年线，TMT产业链遭深幅回调，物理AI概念逆势活跃",
+      "text": "",
+      "url": "https://www.cls.cn/detail/2391959",
+      "cache": "backfill\\search\\focus-004.json",
+      "retrieved_at": "2026-10-23T16:06:53.249593+08:00"
+    },
+    {
+      "id": 2390870,
+      "published_at": "2026-06-04T17:54:55+08:00",
+      "title": "【焦点复盘】科创50冲高回落涨0.69%，AI硬件端强者恒强，大消费板块遭重挫",
+      "text": "",
+      "url": "https://www.cls.cn/detail/2390870",
+      "cache": "backfill\\search\\focus-004.json",
+      "retrieved_at": "2026-10-23T16:06:53.249593+08:00"
+    },
+    {
+      "id": 2389696,
+      "published_at": "2026-06-03T17:35:35+08:00",
+      "title": "【焦点复盘】市场延续极致二八分化，个股炸板率超四成，科技与能源板块再现跷跷板",
+      "text": "",
+      "url": "https://www.cls.cn/detail/2389696",
+      "cache": "backfill\\search\\focus-004.json",
+      "retrieved_at": "2026-10-23T16:06:53.249593+08:00"
+    },
+    {
+      "id": 2388469,
+      "published_at": "2026-06-02T17:27:20+08:00",
+      "title": "【焦点复盘】沪指深V反转收复60日线，硬科技方向重获资金抱团，稀贵金属概念异军突起",
+      "text": "",
+      "url": "https://www.cls.cn/detail/2388469",
+      "cache": "backfill\\search\\focus-004.json",
+      "retrieved_at": "2026-10-23T16:06:53.249593+08:00"
+    },
+    {
+      "id": 2387219,
+      "published_at": "2026-06-01T17:18:21+08:00",
+      "title": "【焦点复盘】市场风格现剧烈高低切，TMT产业链遭批量补跌，异常高温催热煤炭、电力板块",
+      "text": "",
+      "url": "https://www.cls.cn/detail/2387219",
+      "cache": "backfill\\search\\focus-004.json",
+      "retrieved_at": "2026-10-23T16:06:53.249593+08:00"
+    },
+    {
+      "id": 2385496,
+      "published_at": "2026-05-29T17:30:05+08:00",
+      "title": "【焦点复盘】科创50指数放量跌超5%，半导体产业链遭深幅回调，地产产业链逆势大涨",
+      "text": "",
+      "url": "https://www.cls.cn/detail/2385496",
+      "cache": "backfill\\search\\focus-004.json",
+      "retrieved_at": "2026-10-23T16:06:53.249593+08:00"
+    },
+    {
+      "id": 2384303,
+      "published_at": "2026-05-28T17:34:28+08:00",
+      "title": "【焦点复盘】沪指午后深V回升小幅收涨，科技权重股全线发力，“易中天”三巨头齐创历史新高",
+      "text": "",
+      "url": "https://www.cls.cn/detail/2384303",
+      "cache": "backfill\\search\\focus-004.json",
+      "retrieved_at": "2026-10-23T16:06:53.249593+08:00"
+    },
+    {
+      "id": 2383049,
+      "published_at": "2026-05-27T17:36:42+08:00",
+      "title": "【焦点复盘】科创50冲高回落跌2.8%，机器人概念遭重挫，夏季用电高峰引爆电力股",
+      "text": "",
+      "url": "https://www.cls.cn/detail/2383049",
+      "cache": "backfill\\search\\focus-004.json",
+      "retrieved_at": "2026-10-23T16:06:53.249593+08:00"
+    },
+    {
+      "id": 2381769,
+      "published_at": "2026-05-26T17:09:00+08:00",
+      "title": "【焦点复盘】三大指数收盘涨跌互现，AI硬件端分化加剧，先进封装概念强者恒强",
+      "text": "",
+      "url": "https://www.cls.cn/detail/2381769",
+      "cache": "backfill\\search\\focus-005.json",
+      "retrieved_at": "2026-10-23T16:06:53.630543+08:00"
+    },
+    {
+      "id": 2380774,
+      "published_at": "2026-05-25T17:20:17+08:00",
+      "title": "【焦点复盘】创业板指涨逾2%收复4000点，全市场连续2日超百股涨停，科创芯片股批量创历史新高",
+      "text": "",
+      "url": "https://www.cls.cn/detail/2380774",
+      "cache": "backfill\\search\\focus-005.json",
+      "retrieved_at": "2026-10-23T16:06:53.630543+08:00"
+    },
+    {
+      "id": 2379168,
+      "published_at": "2026-05-22T17:27:37+08:00",
+      "title": "【焦点复盘】市场全天现缩量普涨，全市场近200股涨逾10%，MLCC、超级电容概念异军突起",
+      "text": "",
+      "url": "https://www.cls.cn/detail/2379168",
+      "cache": "backfill\\search\\focus-005.json",
+      "retrieved_at": "2026-10-23T16:06:53.630543+08:00"
+    },
+    {
+      "id": 2378006,
+      "published_at": "2026-05-21T17:16:46+08:00",
+      "title": "【焦点复盘】科创50冲高回落跌3.7%，全市场超4700股飘绿，TMT产业链遭重创",
+      "text": "",
+      "url": "https://www.cls.cn/detail/2378006",
+      "cache": "backfill\\search\\focus-005.json",
+      "retrieved_at": "2026-10-23T16:06:53.630543+08:00"
+    },
+    {
+      "id": 2376807,
+      "published_at": "2026-05-20T17:25:54+08:00",
+      "title": "【焦点复盘】市场再现“冰火两重天”行情，科创芯片股独领风骚，“寒王”总市值突破8500亿",
+      "text": "",
+      "url": "https://www.cls.cn/detail/2376807",
+      "cache": "backfill\\search\\focus-005.json",
+      "retrieved_at": "2026-10-23T16:06:53.630543+08:00"
+    },
+    {
+      "id": 2375531,
+      "published_at": "2026-05-19T17:18:56+08:00",
+      "title": "【焦点复盘】沪指企稳反弹涨近1%，物理AI概念活跃不减，Token经济产业链热度扩散",
+      "text": "",
+      "url": "https://www.cls.cn/detail/2375531",
+      "cache": "backfill\\search\\focus-005.json",
+      "retrieved_at": "2026-10-23T16:06:53.630543+08:00"
+    },
+    {
+      "id": 2374303,
+      "published_at": "2026-05-18T17:12:23+08:00",
+      "title": "【焦点复盘】科创50冲高回落涨0.81%，近端次新股获资金持续抱团，物理AI概念异军突起",
+      "text": "",
+      "url": "https://www.cls.cn/detail/2374303",
+      "cache": "backfill\\search\\focus-005.json",
+      "retrieved_at": "2026-10-23T16:06:53.630543+08:00"
+    },
+    {
+      "id": 2372575,
+      "published_at": "2026-05-15T17:13:47+08:00",
+      "title": "【焦点复盘】沪指日线2连阴失守10日均线，光通信概念遭深幅调整，半导体设备股逆势活跃",
+      "text": "",
+      "url": "https://www.cls.cn/detail/2372575",
+      "cache": "backfill\\search\\focus-005.json",
+      "retrieved_at": "2026-10-23T16:06:53.630543+08:00"
+    },
+    {
+      "id": 2371414,
+      "published_at": "2026-05-14T17:33:05+08:00",
+      "title": "【焦点复盘】创业板指、科创50双双跌逾2%，AI硬件股分歧加剧，光伏概念逆势活跃",
+      "text": "",
+      "url": "https://www.cls.cn/detail/2371414",
+      "cache": "backfill\\search\\focus-005.json",
+      "retrieved_at": "2026-10-23T16:06:53.630543+08:00"
+    },
+    {
+      "id": 2370227,
+      "published_at": "2026-05-13T17:30:54+08:00",
+      "title": "【焦点复盘】三大指数全天低开高走，全市场超3200股飘红，光通信概念反复走强",
+      "text": "",
+      "url": "https://www.cls.cn/detail/2370227",
+      "cache": "backfill\\search\\focus-005.json",
+      "retrieved_at": "2026-10-23T16:06:53.630543+08:00"
+    },
+    {
+      "id": 2369163,
+      "published_at": "2026-05-12T17:47:58+08:00",
+      "title": "【焦点复盘】沪指缩量调整跌0.25%，全市场超4000股飘绿，半导体设备股强者恒强",
+      "text": "",
+      "url": "https://www.cls.cn/detail/2369163",
+      "cache": "backfill\\search\\focus-005.json",
+      "retrieved_at": "2026-10-23T16:06:53.630543+08:00"
+    },
+    {
+      "id": 2367989,
+      "published_at": "2026-05-11T17:38:38+08:00",
+      "title": "【焦点复盘】创业板指涨逾3%续创近11年新高，硬科技赛道全线爆发，绿电概念人气股晋级4连板",
+      "text": "",
+      "url": "https://www.cls.cn/detail/2367989",
+      "cache": "backfill\\search\\focus-005.json",
+      "retrieved_at": "2026-10-23T16:06:53.630543+08:00"
+    },
+    {
+      "id": 2366195,
+      "published_at": "2026-05-08T17:38:40+08:00",
+      "title": "【焦点复盘】沪指录得周线5连阳，市场连续3日现百股涨停，算力硬件股不改强势",
+      "text": "",
+      "url": "https://www.cls.cn/detail/2366195",
+      "cache": "backfill\\search\\focus-005.json",
+      "retrieved_at": "2026-10-23T16:06:53.630543+08:00"
+    },
+    {
+      "id": 2365047,
+      "published_at": "2026-05-07T18:13:01+08:00",
+      "title": "【焦点复盘】沪指缩量收涨录得日线六连阳，英伟达联手康宁引爆光通信产业链",
+      "text": "",
+      "url": "https://www.cls.cn/detail/2365047",
+      "cache": "backfill\\search\\focus-005.json",
+      "retrieved_at": "2026-10-23T16:06:53.630543+08:00"
+    },
+    {
+      "id": 2363886,
+      "published_at": "2026-05-06T17:29:58+08:00",
+      "title": "【焦点复盘】创业板指涨2.75%续创11年新高，算力芯片双龙总市值一度突破8000亿",
+      "text": "",
+      "url": "https://www.cls.cn/detail/2363886",
+      "cache": "backfill\\search\\focus-005.json",
+      "retrieved_at": "2026-10-23T16:06:53.630543+08:00"
+    },
+    {
+      "id": 2361186,
+      "published_at": "2026-04-30T17:41:52+08:00",
+      "title": "【焦点复盘】沪指周线4连阳迎4月收官，国产算力链大放异彩，锂电池板块表现分化",
+      "text": "",
+      "url": "https://www.cls.cn/detail/2361186",
+      "cache": "backfill\\search\\focus-005.json",
+      "retrieved_at": "2026-10-23T16:06:53.630543+08:00"
+    },
+    {
+      "id": 2359663,
+      "published_at": "2026-04-29T17:28:08+08:00",
+      "title": "【焦点复盘】创业板指涨2.5%终结4连阴，全市场近4000股飘红，储能、小金属板块强势领涨",
+      "text": "",
+      "url": "https://www.cls.cn/detail/2359663",
+      "cache": "backfill\\search\\focus-005.json",
+      "retrieved_at": "2026-10-23T16:06:53.630543+08:00"
+    },
+    {
+      "id": 2358265,
+      "published_at": "2026-04-28T17:23:11+08:00",
+      "title": "【焦点复盘】创业板指4连阴失守10日线，资金连续热捧氦气概念，“股王”宝座盘中反复易主",
+      "text": "",
+      "url": "https://www.cls.cn/detail/2358265",
+      "cache": "backfill\\search\\focus-005.json",
+      "retrieved_at": "2026-10-23T16:06:53.630543+08:00"
+    },
+    {
+      "id": 2356822,
+      "published_at": "2026-04-27T17:19:26+08:00",
+      "title": "【焦点复盘】三大指数收盘涨跌互现，全市场超百股涨逾10%，国产算力概念活跃依旧",
+      "text": "",
+      "url": "https://www.cls.cn/detail/2356822",
+      "cache": "backfill\\search\\focus-005.json",
+      "retrieved_at": "2026-10-23T16:06:53.630543+08:00"
+    },
+    {
+      "id": 2354937,
+      "published_at": "2026-04-24T17:21:06+08:00",
+      "title": "【焦点复盘】三大指数缩量调整失守5日线，商业航天概念持续退潮，新版DeepSeek激活国产算力链",
+      "text": "",
+      "url": "https://www.cls.cn/detail/2354937",
+      "cache": "backfill\\search\\focus-005.json",
+      "retrieved_at": "2026-10-23T16:06:53.630543+08:00"
+    },
+    {
+      "id": 2353607,
+      "published_at": "2026-04-23T17:29:04+08:00",
+      "title": "【焦点复盘】沪指高开低走失守4100点，CPO概念现深幅调整，资金逆势抱团红利板块",
+      "text": "",
+      "url": "https://www.cls.cn/detail/2353607",
+      "cache": "backfill\\search\\focus-006.json",
+      "retrieved_at": "2026-10-23T16:06:54.020838+08:00"
+    },
+    {
+      "id": 2352266,
+      "published_at": "2026-04-22T17:38:32+08:00",
+      "title": "【焦点复盘】创指、科创50双双涨超1.7%，资金持续热捧科技成长赛道，“易中天”总市值反超贵州茅台",
+      "text": "",
+      "url": "https://www.cls.cn/detail/2352266",
+      "cache": "backfill\\search\\focus-006.json",
+      "retrieved_at": "2026-10-23T16:06:54.020838+08:00"
+    },
+    {
+      "id": 2350801,
+      "published_at": "2026-04-21T17:33:24+08:00",
+      "title": "【焦点复盘】创业板指深V反转迎四连阳，算力硬件股现极致分化，商业航天概念强者恒强",
+      "text": "",
+      "url": "https://www.cls.cn/detail/2350801",
+      "cache": "backfill\\search\\focus-006.json",
+      "retrieved_at": "2026-10-23T16:06:54.020838+08:00"
+    },
+    {
+      "id": 2349457,
+      "published_at": "2026-04-20T17:25:16+08:00",
+      "title": "【焦点复盘】沪指日线3连阳收复60日线，全市场超百股涨逾10%，算力链再现多点开花",
+      "text": "",
+      "url": "https://www.cls.cn/detail/2349457",
+      "cache": "backfill\\search\\focus-006.json",
+      "retrieved_at": "2026-10-23T16:06:54.020838+08:00"
+    },
+    {
+      "id": 2347533,
+      "published_at": "2026-04-17T17:28:25+08:00",
+      "title": "【焦点复盘】市场延续极致“深强沪弱”，科技线一骑绝尘，光模块龙头市值剑指1万亿",
+      "text": "",
+      "url": "https://www.cls.cn/detail/2347533",
+      "cache": "backfill\\search\\focus-006.json",
+      "retrieved_at": "2026-10-23T16:06:54.020838+08:00"
+    },
+    {
+      "id": 2346342,
+      "published_at": "2026-04-16T17:43:36+08:00",
+      "title": "【焦点复盘】创指再现长阳反包，Token经济概念持续火爆，“宁王”首次跻身A股总市值三甲",
+      "text": "",
+      "url": "https://www.cls.cn/detail/2346342",
+      "cache": "backfill\\search\\focus-006.json",
+      "retrieved_at": "2026-10-23T16:06:54.020838+08:00"
+    },
+    {
+      "id": 2344971,
+      "published_at": "2026-04-15T17:28:05+08:00",
+      "title": "【焦点复盘】创指创10年新高后跳水翻绿，算力产业链现高低切，商业航天概念活跃依旧",
+      "text": "",
+      "url": "https://www.cls.cn/detail/2344971",
+      "cache": "backfill\\search\\focus-006.json",
+      "retrieved_at": "2026-10-23T16:06:54.020838+08:00"
+    },
+    {
+      "id": 2343665,
+      "published_at": "2026-04-14T17:39:22+08:00",
+      "title": "【焦点复盘】创业板指、深成指双双创4年多新高，锂电池、算力硬件股持续站上风口",
+      "text": "",
+      "url": "https://www.cls.cn/detail/2343665",
+      "cache": "backfill\\search\\focus-006.json",
+      "retrieved_at": "2026-10-23T16:06:54.020838+08:00"
+    },
+    {
+      "id": 2342373,
+      "published_at": "2026-04-13T17:22:16+08:00",
+      "title": "【焦点复盘】三大指数延续缩量反弹，AI、新能源赛道双线共振，“宁王”A+H总市值一度突破2万亿",
+      "text": "",
+      "url": "https://www.cls.cn/detail/2342373",
+      "cache": "backfill\\search\\focus-006.json",
+      "retrieved_at": "2026-10-23T16:06:54.020838+08:00"
+    },
+    {
+      "id": 2340587,
+      "published_at": "2026-04-10T17:36:19+08:00",
+      "title": "【焦点复盘】市场重现量价齐升行情，成长赛道多点开花，“宁王”大涨6%逼近前高",
+      "text": "",
+      "url": "https://www.cls.cn/detail/2340587",
+      "cache": "backfill\\search\\focus-006.json",
+      "retrieved_at": "2026-10-23T16:06:54.020838+08:00"
+    },
+    {
+      "id": 2339282,
+      "published_at": "2026-04-09T17:27:00+08:00",
+      "title": "【焦点复盘】沪指窄幅震荡收十字星，AI应用端大面积退潮，OCS产业链获持续热捧",
+      "text": "",
+      "url": "https://www.cls.cn/detail/2339282",
+      "cache": "backfill\\search\\focus-006.json",
+      "retrieved_at": "2026-10-23T16:06:54.020838+08:00"
+    },
+    {
+      "id": 2338025,
+      "published_at": "2026-04-08T17:26:08+08:00",
+      "title": "【焦点复盘】创业板指涨近6%终结5连阴，全市场超300股涨逾9%，两市放量超8000亿",
+      "text": "",
+      "url": "https://www.cls.cn/detail/2338025",
+      "cache": "backfill\\search\\focus-006.json",
+      "retrieved_at": "2026-10-23T16:06:54.020838+08:00"
+    },
+    {
+      "id": 2336691,
+      "published_at": "2026-04-07T17:42:39+08:00",
+      "title": "【焦点复盘】节后首日市场迎普涨修复，涨价概念再获热捧，算力硬件股不改强势",
+      "text": "",
+      "url": "https://www.cls.cn/detail/2336691",
+      "cache": "backfill\\search\\focus-006.json",
+      "retrieved_at": "2026-10-23T16:06:54.020838+08:00"
+    },
+    {
+      "id": 2334798,
+      "published_at": "2026-04-03T17:17:00+08:00",
+      "title": "【焦点复盘】创业板指缩量调整录得4连阴，两市成交跌破1.7万亿创年内地量，资金持续抱团光通信概念",
+      "text": "",
+      "url": "https://www.cls.cn/detail/2334798",
+      "cache": "backfill\\search\\focus-006.json",
+      "retrieved_at": "2026-10-23T16:06:54.020838+08:00"
+    },
+    {
+      "id": 2333532,
+      "published_at": "2026-04-02T17:25:02+08:00",
+      "title": "【焦点复盘】沪指缩量调整考验3900点，硬科技方向整体承压，猪肉概念异军突起",
+      "text": "",
+      "url": "https://www.cls.cn/detail/2333532",
+      "cache": "backfill\\search\\focus-006.json",
+      "retrieved_at": "2026-10-23T16:06:54.020838+08:00"
+    },
+    {
+      "id": 2332176,
+      "published_at": "2026-04-01T17:35:43+08:00",
+      "title": "【焦点复盘】A股放量普涨迎4月“开门红”，AI硬件、创新药概念强势领涨",
+      "text": "",
+      "url": "https://www.cls.cn/detail/2332176",
+      "cache": "backfill\\search\\focus-006.json",
+      "retrieved_at": "2026-10-23T16:06:54.020838+08:00"
+    },
+    {
+      "id": 2330673,
+      "published_at": "2026-03-31T17:29:03+08:00",
+      "title": "【焦点复盘】沪指冲高回落再失3900点，商业航天概念活跃依旧，张雪机车概念逆势爆发",
+      "text": "",
+      "url": "https://www.cls.cn/detail/2330673",
+      "cache": "backfill\\search\\focus-006.json",
+      "retrieved_at": "2026-10-23T16:06:54.020838+08:00"
+    },
+    {
+      "id": 2329108,
+      "published_at": "2026-03-30T17:11:26+08:00",
+      "title": "【焦点复盘】不惧外围大跌沪指收获2连涨，光纤概念火热依旧，中东局势引爆铝业股",
+      "text": "",
+      "url": "https://www.cls.cn/detail/2329108",
+      "cache": "backfill\\search\\focus-006.json",
+      "retrieved_at": "2026-10-23T16:06:54.020838+08:00"
+    },
+    {
+      "id": 2327070,
+      "published_at": "2026-03-27T17:20:08+08:00",
+      "title": "【焦点复盘】沪指缩量反弹收复3900点，两市成交额续创年内地量，创新药概念现久违大涨",
+      "text": "",
+      "url": "https://www.cls.cn/detail/2327070",
+      "cache": "backfill\\search\\focus-006.json",
+      "retrieved_at": "2026-10-23T16:06:54.020838+08:00"
+    },
+    {
+      "id": 2325706,
+      "published_at": "2026-03-26T17:27:08+08:00",
+      "title": "【焦点复盘】市场连续普反后现地量普跌，绿电产业链分歧加剧，商业航天概念逆势拉升",
+      "text": "",
+      "url": "https://www.cls.cn/detail/2325706",
+      "cache": "backfill\\search\\focus-006.json",
+      "retrieved_at": "2026-10-23T16:06:54.020838+08:00"
+    },
+    {
+      "id": 2324440,
+      "published_at": "2026-03-25T17:26:47+08:00",
+      "title": "【焦点复盘】创业板指高开高走涨逾2%，全市场近4900股飘红，算电协同概念获持续热捧",
+      "text": "",
+      "url": "https://www.cls.cn/detail/2324440",
+      "cache": "backfill\\search\\focus-007.json",
+      "retrieved_at": "2026-10-23T16:06:54.432096+08:00"
+    },
+    {
+      "id": 2323071,
+      "published_at": "2026-03-24T17:15:40+08:00",
+      "title": "【焦点复盘】市场缩量普涨终结三连跌，全市场超130股涨逾10%，算力硬件产业链全线回暖",
+      "text": "",
+      "url": "https://www.cls.cn/detail/2323071",
+      "cache": "backfill\\search\\focus-007.json",
+      "retrieved_at": "2026-10-23T16:06:54.432096+08:00"
+    },
+    {
+      "id": 2321624,
+      "published_at": "2026-03-23T17:25:14+08:00",
+      "title": "【焦点复盘】三大指数盘中一度均跌逾4%，全市场仅300余股飘红，绿电、煤炭石油股一枝独秀",
+      "text": "",
+      "url": "https://www.cls.cn/detail/2321624",
+      "cache": "backfill\\search\\focus-007.json",
+      "retrieved_at": "2026-10-23T16:06:54.432096+08:00"
+    },
+    {
+      "id": 2319656,
+      "published_at": "2026-03-20T17:35:33+08:00",
+      "title": "【焦点复盘】沪指冲高回落失守半年线，储能概念持续火爆，算力租赁概念午后重挫",
+      "text": "",
+      "url": "https://www.cls.cn/detail/2319656",
+      "cache": "backfill\\search\\focus-007.json",
+      "retrieved_at": "2026-10-23T16:06:54.432096+08:00"
+    },
+    {
+      "id": 2318319,
+      "published_at": "2026-03-19T17:36:56+08:00",
+      "title": "【焦点复盘】沪指弱势探底逼近半年线，资金逆势热捧传统能源，算力租赁概念活跃不减",
+      "text": "",
+      "url": "https://www.cls.cn/detail/2318319",
+      "cache": "backfill\\search\\focus-007.json",
+      "retrieved_at": "2026-10-23T16:06:54.432096+08:00"
+    },
+    {
+      "id": 2316929,
+      "published_at": "2026-03-18T17:54:07+08:00",
+      "title": "【焦点复盘】科技股爆发引领情绪回暖，存储芯片股热度居高不下，化工等周期股逆势领跌",
+      "text": "",
+      "url": "https://www.cls.cn/detail/2316929",
+      "cache": "backfill\\search\\focus-007.json",
+      "retrieved_at": "2026-10-23T16:06:54.432096+08:00"
+    },
+    {
+      "id": 2315591,
+      "published_at": "2026-03-17T17:16:10+08:00",
+      "title": "【焦点复盘】大金融护盘提振有限，沪指时隔1年多再现日线4连阴，短线资金逆势抱团次新股",
+      "text": "",
+      "url": "https://www.cls.cn/detail/2315591",
+      "cache": "backfill\\search\\focus-007.json",
+      "retrieved_at": "2026-10-23T16:06:54.432096+08:00"
+    },
+    {
+      "id": 2314218,
+      "published_at": "2026-03-16T17:07:22+08:00",
+      "title": "【焦点复盘】科技成长赛道强势做多，沪指60日线失而复得，绿电概念现深幅回调",
+      "text": "",
+      "url": "https://www.cls.cn/detail/2314218",
+      "cache": "backfill\\search\\focus-007.json",
+      "retrieved_at": "2026-10-23T16:06:54.432096+08:00"
+    },
+    {
+      "id": 2312271,
+      "published_at": "2026-03-13T17:28:55+08:00",
+      "title": "【焦点复盘】沪指缩量调整失守4100点，资金持续抱团化工股，算力租赁概念遭重挫",
+      "text": "",
+      "url": "https://www.cls.cn/detail/2312271",
+      "cache": "backfill\\search\\focus-007.json",
+      "retrieved_at": "2026-10-23T16:06:54.432096+08:00"
+    },
+    {
+      "id": 2310942,
+      "published_at": "2026-03-12T17:29:04+08:00",
+      "title": "【焦点复盘】创业板指高开低走跌近1%，算电协同概念持续火热，风电设备股午后逆势爆发",
+      "text": "",
+      "url": "https://www.cls.cn/detail/2310942",
+      "cache": "backfill\\search\\focus-007.json",
+      "retrieved_at": "2026-10-23T16:06:54.432096+08:00"
+    },
+    {
+      "id": 2309744,
+      "published_at": "2026-03-11T17:27:39+08:00",
+      "title": "【焦点复盘】沪指放量反弹收复10日线，新能源出海概念全天强势，“宁王”盘中一度突破400元大关",
+      "text": "",
+      "url": "https://www.cls.cn/detail/2309744",
+      "cache": "backfill\\search\\focus-007.json",
+      "retrieved_at": "2026-10-23T16:06:54.432096+08:00"
+    },
+    {
+      "id": 2308576,
+      "published_at": "2026-03-10T17:28:51+08:00",
+      "title": "【焦点复盘】市场全天现缩量普涨，英伟达链卷土重来，机器人概念现久违涨势",
+      "text": "",
+      "url": "https://www.cls.cn/detail/2308576",
+      "cache": "backfill\\search\\focus-007.json",
+      "retrieved_at": "2026-10-23T16:06:54.432096+08:00"
+    },
+    {
+      "id": 2307298,
+      "published_at": "2026-03-09T17:28:00+08:00",
+      "title": "【焦点复盘】沪指金针探底力保60日线不失，算力、电网产业链再掀批量涨停",
+      "text": "",
+      "url": "https://www.cls.cn/detail/2307298",
+      "cache": "backfill\\search\\focus-007.json",
+      "retrieved_at": "2026-10-23T16:06:54.432096+08:00"
+    },
+    {
+      "id": 2305299,
+      "published_at": "2026-03-06T17:30:55+08:00",
+      "title": "【焦点复盘】微盘股指数强势反弹涨逾3%，电网出海概念持续火热，创新药概念现久违大涨",
+      "text": "",
+      "url": "https://www.cls.cn/detail/2305299",
+      "cache": "backfill\\search\\focus-007.json",
+      "retrieved_at": "2026-10-23T16:06:54.432096+08:00"
+    },
+    {
+      "id": 2303998,
+      "published_at": "2026-03-05T17:41:31+08:00",
+      "title": "【焦点复盘】市场全天现普涨反弹，电网设备板块强势依旧，量子科技等未来产业轮动活跃",
+      "text": "",
+      "url": "https://www.cls.cn/detail/2303998",
+      "cache": "backfill\\search\\focus-007.json",
+      "retrieved_at": "2026-10-23T16:06:54.432096+08:00"
+    },
+    {
+      "id": 2302727,
+      "published_at": "2026-03-04T18:11:32+08:00",
+      "title": "【焦点复盘】创业板指缩量调整失守半年线，油气板块全天巨震分化，军工、农业股逆势大涨",
+      "text": "",
+      "url": "https://www.cls.cn/detail/2302727",
+      "cache": "backfill\\search\\focus-007.json",
+      "retrieved_at": "2026-10-23T16:06:54.432096+08:00"
+    },
+    {
+      "id": 2301337,
+      "published_at": "2026-03-03T17:31:58+08:00",
+      "title": "【焦点复盘】市场再现极致分化行情，资金持续抱团涨价概念，中国石油时隔17年再度收获2连板",
+      "text": "",
+      "url": "https://www.cls.cn/detail/2301337",
+      "cache": "backfill\\search\\focus-007.json",
+      "retrieved_at": "2026-10-23T16:06:54.432096+08:00"
+    },
+    {
+      "id": 2299961,
+      "published_at": "2026-03-02T17:35:55+08:00",
+      "title": "【焦点复盘】沪指放量涨0.47%迎3月开门红，全市场超120股涨超10%，中东局势再度引爆资源股",
+      "text": "",
+      "url": "https://www.cls.cn/detail/2299961",
+      "cache": "backfill\\search\\focus-007.json",
+      "retrieved_at": "2026-10-23T16:06:54.432096+08:00"
+    },
+    {
+      "id": 2297352,
+      "published_at": "2026-02-27T17:36:40+08:00",
+      "title": "【焦点复盘】沪指周线、月线均创阶段新高，顺周期板块热度重燃，电力板块异军突起",
+      "text": "",
+      "url": "https://www.cls.cn/detail/2297352",
+      "cache": "backfill\\search\\focus-007.json",
+      "retrieved_at": "2026-10-23T16:06:54.432096+08:00"
+    },
+    {
+      "id": 2296041,
+      "published_at": "2026-02-26T17:38:58+08:00",
+      "title": "【焦点复盘】沪指探底回升几乎平收，硬科技方向全线走强，环保板块午后异动",
+      "text": "",
+      "url": "https://www.cls.cn/detail/2296041",
+      "cache": "backfill\\search\\focus-007.json",
+      "retrieved_at": "2026-10-23T16:06:54.432096+08:00"
+    },
+    {
+      "id": 2294833,
+      "published_at": "2026-02-25T17:32:29+08:00",
+      "title": "【焦点复盘】市场量价齐升行情延续，资源股热度居高不下，地产股盘中异军突起",
+      "text": "",
+      "url": "https://www.cls.cn/detail/2294833",
+      "cache": "backfill\\search\\focus-008.json",
+      "retrieved_at": "2026-10-23T16:06:54.835036+08:00"
+    },
+    {
+      "id": 2293730,
+      "published_at": "2026-02-24T17:18:43+08:00",
+      "title": "【焦点复盘】A股马年开市现放量普涨，涨价概念全线爆发，影视等消费股现逆势调整",
+      "text": "",
+      "url": "https://www.cls.cn/detail/2293730",
+      "cache": "backfill\\search\\focus-008.json",
+      "retrieved_at": "2026-10-23T16:06:54.835036+08:00"
+    },
+    {
+      "id": 2289707,
+      "published_at": "2026-02-13T17:25:25+08:00",
+      "title": "【焦点复盘】沪指低开低走失守4100点，军工、半导体设备板块逆势活跃",
+      "text": "",
+      "url": "https://www.cls.cn/detail/2289707",
+      "cache": "backfill\\search\\focus-008.json",
+      "retrieved_at": "2026-10-23T16:06:54.835036+08:00"
+    },
+    {
+      "id": 2288560,
+      "published_at": "2026-02-12T17:38:09+08:00",
+      "title": "【焦点复盘】市场全天现深强沪弱，AI硬件端表现火热，大消费板块延续调整",
+      "text": "",
+      "url": "https://www.cls.cn/detail/2288560",
+      "cache": "backfill\\search\\focus-008.json",
+      "retrieved_at": "2026-10-23T16:06:54.835036+08:00"
+    },
+    {
+      "id": 2287287,
+      "published_at": "2026-02-11T17:23:40+08:00",
+      "title": "【焦点复盘】沪指缩量微涨录得日线7连阳，影视传媒股全天低迷，涨价概念现多点开花",
+      "text": "",
+      "url": "https://www.cls.cn/detail/2287287",
+      "cache": "backfill\\search\\focus-008.json",
+      "retrieved_at": "2026-10-23T16:06:54.835036+08:00"
+    },
+    {
+      "id": 2286019,
+      "published_at": "2026-02-10T17:24:04+08:00",
+      "title": "【焦点复盘】沪指横盘整理报收十字星，Seedance概念多股实现二连板，算力硬件端现高低切",
+      "text": "",
+      "url": "https://www.cls.cn/detail/2286019",
+      "cache": "backfill\\search\\focus-008.json",
+      "retrieved_at": "2026-10-23T16:06:54.835036+08:00"
+    },
+    {
+      "id": 2284692,
+      "published_at": "2026-02-09T17:10:37+08:00",
+      "title": "【焦点复盘】沪指日线5连阳收复4100点，全市场超120股涨逾10%，太空光伏概念再现批量涨停",
+      "text": "",
+      "url": "https://www.cls.cn/detail/2284692",
+      "cache": "backfill\\search\\focus-008.json",
+      "retrieved_at": "2026-10-23T16:06:54.835036+08:00"
+    },
+    {
+      "id": 2282967,
+      "published_at": "2026-02-06T17:17:54+08:00",
+      "title": "【焦点复盘】市场延续缩量调整，能化等周期股逆势爆发，太空光伏概念午后回暖",
+      "text": "",
+      "url": "https://www.cls.cn/detail/2282967",
+      "cache": "backfill\\search\\focus-008.json",
+      "retrieved_at": "2026-10-23T16:06:54.835036+08:00"
+    },
+    {
+      "id": 2281691,
+      "published_at": "2026-02-05T17:12:36+08:00",
+      "title": "【焦点复盘】金融权重股午后护盘，沪指缩量震荡收十字星，太空光伏概念大面积退潮",
+      "text": "",
+      "url": "https://www.cls.cn/detail/2281691",
+      "cache": "backfill\\search\\focus-008.json",
+      "retrieved_at": "2026-10-23T16:06:54.835036+08:00"
+    },
+    {
+      "id": 2280411,
+      "published_at": "2026-02-04T17:05:54+08:00",
+      "title": "【焦点复盘】金融地产板块护盘拉升股指，算力产业链全天低迷，贵州茅台强势收复1500元大关",
+      "text": "",
+      "url": "https://www.cls.cn/detail/2280411",
+      "cache": "backfill\\search\\focus-008.json",
+      "retrieved_at": "2026-10-23T16:06:54.835036+08:00"
+    },
+    {
+      "id": 2279188,
+      "published_at": "2026-02-03T17:37:16+08:00",
+      "title": "【焦点复盘】市场盘中再现深V反转，全市场超120股涨逾10%，AI软硬件双双回暖",
+      "text": "",
+      "url": "https://www.cls.cn/detail/2279188",
+      "cache": "backfill\\search\\focus-008.json",
+      "retrieved_at": "2026-10-23T16:06:54.835036+08:00"
+    },
+    {
+      "id": 2277847,
+      "published_at": "2026-02-02T17:02:27+08:00",
+      "title": "【焦点复盘】沪指逼近4000点，全市场超800股跌逾5%，白酒、电网设备股逆势活跃",
+      "text": "",
+      "url": "https://www.cls.cn/detail/2277847",
+      "cache": "backfill\\search\\focus-008.json",
+      "retrieved_at": "2026-10-23T16:06:54.835036+08:00"
+    },
+    {
+      "id": 2275739,
+      "published_at": "2026-01-30T17:21:34+08:00",
+      "title": "【焦点复盘】沪指深V回升4100点失而复得，AI软硬件同步回暖，农业板块全天强势",
+      "text": "",
+      "url": "https://www.cls.cn/detail/2275739",
+      "cache": "backfill\\search\\focus-008.json",
+      "retrieved_at": "2026-10-23T16:06:54.835036+08:00"
+    },
+    {
+      "id": 2274253,
+      "published_at": "2026-01-29T17:32:18+08:00",
+      "title": "【焦点复盘】科创50跌超3%，半导体等硬科技方向低迷，贵州茅台大涨近9%收复1400元大关",
+      "text": "",
+      "url": "https://www.cls.cn/detail/2274253",
+      "cache": "backfill\\search\\focus-008.json",
+      "retrieved_at": "2026-10-23T16:06:54.835036+08:00"
+    },
+    {
+      "id": 2272801,
+      "published_at": "2026-01-28T17:35:40+08:00",
+      "title": "【焦点复盘】沪指强势震荡涨0.27%，三市成交额逼近3万亿，涨价概念持续获资金热捧",
+      "text": "",
+      "url": "https://www.cls.cn/detail/2272801",
+      "cache": "backfill\\search\\focus-008.json",
+      "retrieved_at": "2026-10-23T16:06:54.835036+08:00"
+    },
+    {
+      "id": 2271331,
+      "published_at": "2026-01-27T17:29:10+08:00",
+      "title": "【焦点复盘】科创50缩量涨超1.5%，AI硬件端卷土重来，有色板块全天现巨震分歧",
+      "text": "",
+      "url": "https://www.cls.cn/detail/2271331",
+      "cache": "backfill\\search\\focus-008.json",
+      "retrieved_at": "2026-10-23T16:06:54.835036+08:00"
+    },
+    {
+      "id": 2269857,
+      "published_at": "2026-01-26T17:21:59+08:00",
+      "title": "【焦点复盘】创业板指放量跌近1%，资源股持续强势领涨，万亿市值油气龙头创历史新高",
+      "text": "",
+      "url": "https://www.cls.cn/detail/2269857",
+      "cache": "backfill\\search\\focus-008.json",
+      "retrieved_at": "2026-10-23T16:06:54.835036+08:00"
+    },
+    {
+      "id": 2267939,
+      "published_at": "2026-01-23T17:29:33+08:00",
+      "title": "【焦点复盘】北证50高开高走涨近4%，全市场超160股涨逾10%，有色板块再掀高潮",
+      "text": "",
+      "url": "https://www.cls.cn/detail/2267939",
+      "cache": "backfill\\search\\focus-008.json",
+      "retrieved_at": "2026-10-23T16:06:54.835036+08:00"
+    },
+    {
+      "id": 2266585,
+      "published_at": "2026-01-22T17:31:02+08:00",
+      "title": "【焦点复盘】创业板指探底回升涨超1%，算力硬件股持续回暖，人气股国晟科技午后上演“地天板”",
+      "text": "",
+      "url": "https://www.cls.cn/detail/2266585",
+      "cache": "backfill\\search\\focus-008.json",
+      "retrieved_at": "2026-10-23T16:06:54.835036+08:00"
+    },
+    {
+      "id": 2265232,
+      "published_at": "2026-01-21T17:35:31+08:00",
+      "title": "【焦点复盘】沪指冲高回落微幅收涨，AI硬件端卷土重来，机器人概念人气股罕见走出16连板",
+      "text": "",
+      "url": "https://www.cls.cn/detail/2265232",
+      "cache": "backfill\\search\\focus-008.json",
+      "retrieved_at": "2026-10-23T16:06:54.835036+08:00"
+    },
+    {
+      "id": 2263713,
+      "published_at": "2026-01-20T17:28:23+08:00",
+      "title": "【焦点复盘】金融权重股护盘，沪指探底回升收十字星，算力硬件股遭深幅调整",
+      "text": "",
+      "url": "https://www.cls.cn/detail/2263713",
+      "cache": "backfill\\search\\focus-009.json",
+      "retrieved_at": "2026-10-23T16:06:55.211062+08:00"
+    },
+    {
+      "id": 2262334,
+      "published_at": "2026-01-19T17:29:26+08:00",
+      "title": "【焦点复盘】创业板指冲高回落跌0.7%，AI软硬件双双低迷，贵金属板块再度爆发",
+      "text": "",
+      "url": "https://www.cls.cn/detail/2262334",
+      "cache": "backfill\\search\\focus-009.json",
+      "retrieved_at": "2026-10-23T16:06:55.211062+08:00"
+    },
+    {
+      "id": 2260421,
+      "published_at": "2026-01-16T17:30:34+08:00",
+      "title": "【焦点复盘】沪指日线4连跌失守10日线，AI软硬件分化加剧，机器人概念持续活跃",
+      "text": "",
+      "url": "https://www.cls.cn/detail/2260421",
+      "cache": "backfill\\search\\focus-009.json",
+      "retrieved_at": "2026-10-23T16:06:55.211062+08:00"
+    },
+    {
+      "id": 2259030,
+      "published_at": "2026-01-15T17:33:51+08:00",
+      "title": "【焦点复盘】创业板指低开高走涨0.56%，两市成交额跌破3万亿，半导体、算力硬件股卷土重来",
+      "text": "",
+      "url": "https://www.cls.cn/detail/2259030",
+      "cache": "backfill\\search\\focus-009.json",
+      "retrieved_at": "2026-10-23T16:06:55.211062+08:00"
+    },
+    {
+      "id": 2257582,
+      "published_at": "2026-01-14T17:28:21+08:00",
+      "title": "【焦点复盘】沪指午后跳水一度逼近4100点，商业航天概念分化持续，半导体设备股卷土重来",
+      "text": "",
+      "url": "https://www.cls.cn/detail/2257582",
+      "cache": "backfill\\search\\focus-009.json",
+      "retrieved_at": "2026-10-23T16:06:55.211062+08:00"
+    },
+    {
+      "id": 2256259,
+      "published_at": "2026-01-13T17:21:54+08:00",
+      "title": "【焦点复盘】科创50低开低走跌近3%，全市场超500股跌超5%，AI医疗概念强势依旧",
+      "text": "",
+      "url": "https://www.cls.cn/detail/2256259",
+      "cache": "backfill\\search\\focus-009.json",
+      "retrieved_at": "2026-10-23T16:06:55.211062+08:00"
+    },
+    {
+      "id": 2254978,
+      "published_at": "2026-01-12T17:36:05+08:00",
+      "title": "【焦点复盘】北证50放量涨超5%，全市场超300股涨超10%，GEO概念领涨AI应用端",
+      "text": "",
+      "url": "https://www.cls.cn/detail/2254978",
+      "cache": "backfill\\search\\focus-009.json",
+      "retrieved_at": "2026-10-23T16:06:55.211062+08:00"
+    },
+    {
+      "id": 2253184,
+      "published_at": "2026-01-09T17:43:04+08:00",
+      "title": "【焦点复盘】沪指放量涨近1%，全市场超150股涨逾10%，AI应用人气股实现20cm5连板",
+      "text": "",
+      "url": "https://www.cls.cn/detail/2253184",
+      "cache": "backfill\\search\\focus-009.json",
+      "retrieved_at": "2026-10-23T16:06:55.211062+08:00"
+    },
+    {
+      "id": 2251902,
+      "published_at": "2026-01-08T17:29:38+08:00",
+      "title": "【焦点复盘】创业板指弱势震荡跌0.82%，金融等权重股低迷，国产算力、AI应用逆势活跃",
+      "text": "",
+      "url": "https://www.cls.cn/detail/2251902",
+      "cache": "backfill\\search\\focus-009.json",
+      "retrieved_at": "2026-10-23T16:06:55.211062+08:00"
+    },
+    {
+      "id": 2250688,
+      "published_at": "2026-01-07T17:29:18+08:00",
+      "title": "【焦点复盘】沪指高位十字星续创连阳纪录，商业航天概念强势依旧，煤炭板块午后爆发",
+      "text": "",
+      "url": "https://www.cls.cn/detail/2250688",
+      "cache": "backfill\\search\\focus-009.json",
+      "retrieved_at": "2026-10-23T16:06:55.211062+08:00"
+    },
+    {
+      "id": 2249416,
+      "published_at": "2026-01-06T17:31:08+08:00",
+      "title": "【焦点复盘】大金融、顺周期合力做多，沪指光头长阳剑指4100点，商业航天概念火爆依旧",
+      "text": "",
+      "url": "https://www.cls.cn/detail/2249416",
+      "cache": "backfill\\search\\focus-009.json",
+      "retrieved_at": "2026-10-23T16:06:55.211062+08:00"
+    },
+    {
+      "id": 2248129,
+      "published_at": "2026-01-05T17:40:54+08:00",
+      "title": "【焦点复盘】沪指刷新33年来连阳纪录，两市成交额激增超5000亿，脑机接口概念掀批量涨停",
+      "text": "",
+      "url": "https://www.cls.cn/detail/2248129",
+      "cache": "backfill\\search\\focus-009.json",
+      "retrieved_at": "2026-10-23T16:06:55.211062+08:00"
+    },
+    {
+      "id": 2245628,
+      "published_at": "2025-12-31T17:32:14+08:00",
+      "title": "【焦点复盘】银行等权重板块护盘，沪指追平日线连阳历史纪录，AI软硬件分化再现",
+      "text": "",
+      "url": "https://www.cls.cn/detail/2245628",
+      "cache": "backfill\\search\\focus-009.json",
+      "retrieved_at": "2026-10-23T16:06:55.211062+08:00"
+    },
+    {
+      "id": 2244203,
+      "published_at": "2025-12-30T17:25:12+08:00",
+      "title": "【焦点复盘】科创50指数收涨超1%，国产算力概念全天亮眼，AI智能体概念异军突起",
+      "text": "",
+      "url": "https://www.cls.cn/detail/2244203",
+      "cache": "backfill\\search\\focus-009.json",
+      "retrieved_at": "2026-10-23T16:06:55.211062+08:00"
+    },
+    {
+      "id": 2242927,
+      "published_at": "2025-12-29T17:11:18+08:00",
+      "title": "【焦点复盘】沪指创年内连阳纪录剑指4000点，机器人概念持续火热，锂电池产业链现深幅回调",
+      "text": "",
+      "url": "https://www.cls.cn/detail/2242927",
+      "cache": "backfill\\search\\focus-009.json",
+      "retrieved_at": "2026-10-23T16:06:55.211062+08:00"
+    },
+    {
+      "id": 2241161,
+      "published_at": "2025-12-26T17:21:26+08:00",
+      "title": "【焦点复盘】沪指时隔4个月再现日线8连阳，有色、锂电等涨价概念全线爆发",
+      "text": "",
+      "url": "https://www.cls.cn/detail/2241161",
+      "cache": "backfill\\search\\focus-009.json",
+      "retrieved_at": "2026-10-23T16:06:55.211062+08:00"
+    },
+    {
+      "id": 2240066,
+      "published_at": "2025-12-25T17:18:29+08:00",
+      "title": "【焦点复盘】创业板指探底回升收获5连涨，全市场超3700股飘红，机器人概念现批量涨停",
+      "text": "",
+      "url": "https://www.cls.cn/detail/2240066",
+      "cache": "backfill\\search\\focus-009.json",
+      "retrieved_at": "2026-10-23T16:06:55.211062+08:00"
+    },
+    {
+      "id": 2238991,
+      "published_at": "2025-12-24T17:26:07+08:00",
+      "title": "【焦点复盘】市场现缩量普涨行情，全市场超百股涨逾10%，光模块龙头总市值突破7000亿",
+      "text": "",
+      "url": "https://www.cls.cn/detail/2238991",
+      "cache": "backfill\\search\\focus-009.json",
+      "retrieved_at": "2026-10-23T16:06:55.211062+08:00"
+    },
+    {
+      "id": 2237793,
+      "published_at": "2025-12-23T17:29:56+08:00",
+      "title": "【焦点复盘】沪指日线5连阳创1个月新高，半导体设备股持续火爆，3只上市新股均触发二次临停",
+      "text": "",
+      "url": "https://www.cls.cn/detail/2237793",
+      "cache": "backfill\\search\\focus-009.json",
+      "retrieved_at": "2026-10-23T16:06:55.211062+08:00"
+    },
+    {
+      "id": 2236551,
+      "published_at": "2025-12-22T17:18:50+08:00",
+      "title": "【焦点复盘】创业板指高开高走涨逾2%，半导体产业链“王者归来”，机器人概念午后异动",
+      "text": "",
+      "url": "https://www.cls.cn/detail/2236551",
+      "cache": "backfill\\search\\focus-009.json",
+      "retrieved_at": "2026-10-23T16:06:55.211062+08:00"
+    },
+    {
+      "id": 2234804,
+      "published_at": "2025-12-19T17:07:16+08:00",
+      "title": "【焦点复盘】沪指3连阳收复20日均线，全市场超4400股飘红，智能驾驶概念再度爆发",
+      "text": "",
+      "url": "https://www.cls.cn/detail/2234804",
+      "cache": "backfill\\search\\focus-010.json",
+      "retrieved_at": "2026-10-23T16:06:55.613496+08:00"
+    },
+    {
+      "id": 2233572,
+      "published_at": "2025-12-18T16:55:48+08:00",
+      "title": "【焦点复盘】市场现沪强深弱分化行情，商业航天概念卷土重来，“犒赏经济”概念乘风而起",
+      "text": "",
+      "url": "https://www.cls.cn/detail/2233572",
+      "cache": "backfill\\search\\focus-010.json",
+      "retrieved_at": "2026-10-23T16:06:55.613496+08:00"
+    },
+    {
+      "id": 2232376,
+      "published_at": "2025-12-17T17:21:34+08:00",
+      "title": "【焦点复盘】科技成长赛道引领反弹，创指百点长阳收复60日线，全市场超3600股飘红",
+      "text": "",
+      "url": "https://www.cls.cn/detail/2232376",
+      "cache": "backfill\\search\\focus-010.json",
+      "retrieved_at": "2026-10-23T16:06:55.613496+08:00"
+    },
+    {
+      "id": 2231107,
+      "published_at": "2025-12-16T17:31:53+08:00",
+      "title": "【焦点复盘】沪指低开低走创2个月新低，贵金属板块现深幅调整，智能驾驶概念逆势爆发",
+      "text": "",
+      "url": "https://www.cls.cn/detail/2231107",
+      "cache": "backfill\\search\\focus-010.json",
+      "retrieved_at": "2026-10-23T16:06:55.613496+08:00"
+    },
+    {
+      "id": 2229902,
+      "published_at": "2025-12-15T17:21:19+08:00",
+      "title": "【焦点复盘】金融权重护盘提振有限，AI硬件股现深幅调整，商业航天概念持续站上风口",
+      "text": "",
+      "url": "https://www.cls.cn/detail/2229902",
+      "cache": "backfill\\search\\focus-010.json",
+      "retrieved_at": "2026-10-23T16:06:55.613496+08:00"
+    },
+    {
+      "id": 2228044,
+      "published_at": "2025-12-12T17:18:09+08:00",
+      "title": "【焦点复盘】创业板指放量涨近1%，全市场超百股涨超10%，电网、可控核聚变概念携手爆发",
+      "text": "",
+      "url": "https://www.cls.cn/detail/2228044",
+      "cache": "backfill\\search\\focus-010.json",
+      "retrieved_at": "2026-10-23T16:06:55.613496+08:00"
+    },
+    {
+      "id": 2226800,
+      "published_at": "2025-12-11T17:32:09+08:00",
+      "title": "【焦点复盘】沪指放量跌0.7%录得日线3连阴，商业航天概念一枝独秀，摩尔线程总市值突破4400亿",
+      "text": "",
+      "url": "https://www.cls.cn/detail/2226800",
+      "cache": "backfill\\search\\focus-010.json",
+      "retrieved_at": "2026-10-23T16:06:55.613496+08:00"
+    },
+    {
+      "id": 2225435,
+      "published_at": "2025-12-10T17:11:50+08:00",
+      "title": "【焦点复盘】沪指缩量十字星险守3900点，零售板块延续强势，万科A时隔近10个月再获涨停",
+      "text": "",
+      "url": "https://www.cls.cn/detail/2225435",
+      "cache": "backfill\\search\\focus-010.json",
+      "retrieved_at": "2026-10-23T16:06:55.613496+08:00"
+    },
+    {
+      "id": 2224158,
+      "published_at": "2025-12-09T17:12:56+08:00",
+      "title": "【焦点复盘】市场再陷缩量普跌，资金持续抱团英伟达链，商业航天概念表现分化",
+      "text": "",
+      "url": "https://www.cls.cn/detail/2224158",
+      "cache": "backfill\\search\\focus-010.json",
+      "retrieved_at": "2026-10-23T16:06:55.613496+08:00"
+    },
+    {
+      "id": 2222898,
+      "published_at": "2025-12-08T17:25:35+08:00",
+      "title": "【焦点复盘】创指3连阳收复30日线，多只CPO概念股齐创历史新高，福建本地股再现批量涨停",
+      "text": "",
+      "url": "https://www.cls.cn/detail/2222898",
+      "cache": "backfill\\search\\focus-010.json",
+      "retrieved_at": "2026-10-23T16:06:55.613496+08:00"
+    },
+    {
+      "id": 2221133,
+      "published_at": "2025-12-05T17:35:04+08:00",
+      "title": "【焦点复盘】创业板指2连涨收复60日线，全市场近百股涨超10%，算力硬件股卷土重来",
+      "text": "",
+      "url": "https://www.cls.cn/detail/2221133",
+      "cache": "backfill\\search\\focus-010.json",
+      "retrieved_at": "2026-10-23T16:06:55.613496+08:00"
+    },
+    {
+      "id": 2219807,
+      "published_at": "2025-12-04T17:27:11+08:00",
+      "title": "【焦点复盘】双创指数缩量涨逾1%，两市成交额创4个月地量，摩尔线程概念大放异彩",
+      "text": "",
+      "url": "https://www.cls.cn/detail/2219807",
+      "cache": "backfill\\search\\focus-010.json",
+      "retrieved_at": "2026-10-23T16:06:55.613496+08:00"
+    },
+    {
+      "id": 2218494,
+      "published_at": "2025-12-03T17:12:41+08:00",
+      "title": "【焦点复盘】沪指日线二连阴失守10日均线，商业航天盘中现多次巨震，超硬材料概念异军突起",
+      "text": "",
+      "url": "https://www.cls.cn/detail/2218494",
+      "cache": "backfill\\search\\focus-010.json",
+      "retrieved_at": "2026-10-23T16:06:55.613496+08:00"
+    },
+    {
+      "id": 2217189,
+      "published_at": "2025-12-02T17:17:14+08:00",
+      "title": "【焦点复盘】沪指失守3900点终结三连阳，商业航天概念强者恒强，“炒地图”、“炒玄学”热度重燃",
+      "text": "",
+      "url": "https://www.cls.cn/detail/2217189",
+      "cache": "backfill\\search\\focus-010.json",
+      "retrieved_at": "2026-10-23T16:06:55.613496+08:00"
+    },
+    {
+      "id": 2215992,
+      "published_at": "2025-12-01T17:22:01+08:00",
+      "title": "【焦点复盘】创指、深成指双双涨逾1%，商业航天概念延续强势，光刻胶概念午后异军突起",
+      "text": "",
+      "url": "https://www.cls.cn/detail/2215992",
+      "cache": "backfill\\search\\focus-010.json",
+      "retrieved_at": "2026-10-23T16:06:55.613496+08:00"
+    },
+    {
+      "id": 2214176,
+      "published_at": "2025-11-28T17:50:48+08:00",
+      "title": "【焦点复盘】市场再现缩量普涨反弹，成交金额创近4个月地量，锂电池、机器人概念表现亮眼",
+      "text": "",
+      "url": "https://www.cls.cn/detail/2214176",
+      "cache": "backfill\\search\\focus-010.json",
+      "retrieved_at": "2026-10-23T16:06:55.613496+08:00"
+    },
+    {
+      "id": 2212903,
+      "published_at": "2025-11-27T17:27:58+08:00",
+      "title": "【焦点复盘】双创指数尾盘跳水终结3连涨，AI应用端表现降温，多款新品发布引爆消费电子板块",
+      "text": "",
+      "url": "https://www.cls.cn/detail/2212903",
+      "cache": "backfill\\search\\focus-010.json",
+      "retrieved_at": "2026-10-23T16:06:55.613496+08:00"
+    },
+    {
+      "id": 2211665,
+      "published_at": "2025-11-26T17:36:22+08:00",
+      "title": "【焦点复盘】市场现深强沪弱分化行情，算力硬件、抗流感概念持续火热",
+      "text": "",
+      "url": "https://www.cls.cn/detail/2211665",
+      "cache": "backfill\\search\\focus-010.json",
+      "retrieved_at": "2026-10-23T16:06:55.613496+08:00"
+    },
+    {
+      "id": 2210371,
+      "published_at": "2025-11-25T17:24:54+08:00",
+      "title": "【焦点复盘】创业板指高开高走涨近2%，谷歌产业链获持续热捧，福建本地股卷土重来",
+      "text": "",
+      "url": "https://www.cls.cn/detail/2210371",
+      "cache": "backfill\\search\\focus-010.json",
+      "retrieved_at": "2026-10-23T16:06:55.613496+08:00"
+    },
+    {
+      "id": 2209054,
+      "published_at": "2025-11-24T17:58:52+08:00",
+      "title": "【焦点复盘】市场现久违普涨反弹，商业航天概念大放异彩，千问APP引爆阿里概念",
+      "text": "",
+      "url": "https://www.cls.cn/detail/2209054",
+      "cache": "backfill\\search\\focus-010.json",
+      "retrieved_at": "2026-10-23T16:06:55.613496+08:00"
+    },
+    {
+      "id": 2207484,
+      "published_at": "2025-11-21T17:27:34+08:00",
+      "title": "【焦点复盘】沪指放量长阴失守3900点，全市场超450股跌超7%，AI应用端一枝独秀",
+      "text": "",
+      "url": "https://www.cls.cn/detail/2207484",
+      "cache": "backfill\\search\\focus-011.json",
+      "retrieved_at": "2026-10-23T16:06:56.013586+08:00"
+    },
+    {
+      "id": 2206386,
+      "published_at": "2025-11-20T17:48:13+08:00",
+      "title": "【焦点复盘】银行股护盘独木难支，指数再现缩量探底，锂矿概念强者恒强",
+      "text": "",
+      "url": "https://www.cls.cn/detail/2206386",
+      "cache": "backfill\\search\\focus-011.json",
+      "retrieved_at": "2026-10-23T16:06:56.013586+08:00"
+    },
+    {
+      "id": 2205124,
+      "published_at": "2025-11-19T17:23:57+08:00",
+      "title": "【焦点复盘】市场全天现二八分化，高位人气妖股再遭重创，中国石油盘中创10年多新高",
+      "text": "",
+      "url": "https://www.cls.cn/detail/2205124",
+      "cache": "backfill\\search\\focus-011.json",
+      "retrieved_at": "2026-10-23T16:06:56.013586+08:00"
+    },
+    {
+      "id": 2203898,
+      "published_at": "2025-11-18T17:22:16+08:00",
+      "title": "【焦点复盘】沪指3连阴跌破30日线，全市场超4100股飘绿，高位人气股遭遇批量跌停",
+      "text": "",
+      "url": "https://www.cls.cn/detail/2203898",
+      "cache": "backfill\\search\\focus-011.json",
+      "retrieved_at": "2026-10-23T16:06:56.013586+08:00"
+    },
+    {
+      "id": 2202608,
+      "published_at": "2025-11-17T17:06:48+08:00",
+      "title": "【焦点复盘】沪指日线2连阴失守20日线，锂电材料股强者恒强，AI应用端逆势爆发",
+      "text": "",
+      "url": "https://www.cls.cn/detail/2202608",
+      "cache": "backfill\\search\\focus-011.json",
+      "retrieved_at": "2026-10-23T16:06:56.013586+08:00"
+    },
+    {
+      "id": 2200994,
+      "published_at": "2025-11-14T17:27:27+08:00",
+      "title": "【焦点复盘】创业板指低开低走跌近3%，AI硬件端全线退潮，抗寒概念股逆势爆发",
+      "text": "",
+      "url": "https://www.cls.cn/detail/2200994",
+      "cache": "backfill\\search\\focus-011.json",
+      "retrieved_at": "2026-10-23T16:06:56.013586+08:00"
+    },
+    {
+      "id": 2199765,
+      "published_at": "2025-11-13T17:28:26+08:00",
+      "title": "【焦点复盘】创业板指放量涨超2%，锂电、储能赛道持续火爆，“宁王”盘中一度飙升逾9%",
+      "text": "",
+      "url": "https://www.cls.cn/detail/2199765",
+      "cache": "backfill\\search\\focus-011.json",
+      "retrieved_at": "2026-10-23T16:06:56.013586+08:00"
+    },
+    {
+      "id": 2198475,
+      "published_at": "2025-11-12T17:30:54+08:00",
+      "title": "【焦点复盘】银行等红利股强势护盘，沪指连续3日站稳4000点上方，细胞免疫概念午后逆势爆发",
+      "text": "",
+      "url": "https://www.cls.cn/detail/2198475",
+      "cache": "backfill\\search\\focus-011.json",
+      "retrieved_at": "2026-10-23T16:06:56.013586+08:00"
+    },
+    {
+      "id": 2197306,
+      "published_at": "2025-11-11T17:21:04+08:00",
+      "title": "【焦点复盘】沪指冲高回落险守4000点，锂电材料股持续火热，机器人概念午后异军突起",
+      "text": "",
+      "url": "https://www.cls.cn/detail/2197306",
+      "cache": "backfill\\search\\focus-011.json",
+      "retrieved_at": "2026-10-23T16:06:56.013586+08:00"
+    },
+    {
+      "id": 2196110,
+      "published_at": "2025-11-10T17:30:55+08:00",
+      "title": "【焦点复盘】沪指四连阳创年内收盘新高，涨价概念强者恒强，存储芯片概念再度爆发",
+      "text": "",
+      "url": "https://www.cls.cn/detail/2196110",
+      "cache": "backfill\\search\\focus-011.json",
+      "retrieved_at": "2026-10-23T16:06:56.013586+08:00"
+    },
+    {
+      "id": 2194388,
+      "published_at": "2025-11-07T17:37:17+08:00",
+      "title": "【焦点复盘】沪指冲高回落失守4000点，涨价概念炒作扩散，“左磷右锂”盛况重现",
+      "text": "",
+      "url": "https://www.cls.cn/detail/2194388",
+      "cache": "backfill\\search\\focus-011.json",
+      "retrieved_at": "2026-10-23T16:06:56.013586+08:00"
+    },
+    {
+      "id": 2193182,
+      "published_at": "2025-11-06T17:26:31+08:00",
+      "title": "【焦点复盘】科创50放量涨超3%，算力产业链全线回暖，“寒王”涨近10%重夺“股王”",
+      "text": "",
+      "url": "https://www.cls.cn/detail/2193182",
+      "cache": "backfill\\search\\focus-011.json",
+      "retrieved_at": "2026-10-23T16:06:56.013586+08:00"
+    },
+    {
+      "id": 2191989,
+      "published_at": "2025-11-05T17:30:13+08:00",
+      "title": "【焦点复盘】创业板指绝地反击涨超1%，海外AI缺电潮引爆储能赛道，泛消费概念表现亮眼",
+      "text": "",
+      "url": "https://www.cls.cn/detail/2191989",
+      "cache": "backfill\\search\\focus-011.json",
+      "retrieved_at": "2026-10-23T16:06:56.013586+08:00"
+    },
+    {
+      "id": 2190760,
+      "published_at": "2025-11-04T17:16:01+08:00",
+      "title": "【焦点复盘】三大指数再陷缩量调整，黄金等资源股持续低迷，资金逆势抱团银行等红利股",
+      "text": "",
+      "url": "https://www.cls.cn/detail/2190760",
+      "cache": "backfill\\search\\focus-011.json",
+      "retrieved_at": "2026-10-23T16:06:56.013586+08:00"
+    },
+    {
+      "id": 2189658,
+      "published_at": "2025-11-03T17:27:47+08:00",
+      "title": "【焦点复盘】指数缩量反弹迎11月开门红，传媒等AI应用端延续强势，海南自贸概念异军突起",
+      "text": "",
+      "url": "https://www.cls.cn/detail/2189658",
+      "cache": "backfill\\search\\focus-011.json",
+      "retrieved_at": "2026-10-23T16:06:56.013586+08:00"
+    },
+    {
+      "id": 2187963,
+      "published_at": "2025-10-31T17:20:43+08:00",
+      "title": "【焦点复盘】科创50低开低走跌逾3%，算力硬件股持续退潮，创新药概念逆势爆发",
+      "text": "",
+      "url": "https://www.cls.cn/detail/2187963",
+      "cache": "backfill\\search\\focus-011.json",
+      "retrieved_at": "2026-10-23T16:06:56.013586+08:00"
+    },
+    {
+      "id": 2186433,
+      "published_at": "2025-10-30T17:26:33+08:00",
+      "title": "【焦点复盘】沪指冲高回落终结7连阳，AI硬件端遭重挫，锂矿股逆势爆发",
+      "text": "",
+      "url": "https://www.cls.cn/detail/2186433",
+      "cache": "backfill\\search\\focus-011.json",
+      "retrieved_at": "2026-10-23T16:06:56.013586+08:00"
+    },
+    {
+      "id": 2184899,
+      "published_at": "2025-10-29T17:35:59+08:00",
+      "title": "【焦点复盘】创业板指涨近3%创近4年新高，有色、电网设备股爆发，银行板块逆势回调",
+      "text": "",
+      "url": "https://www.cls.cn/detail/2184899",
+      "cache": "backfill\\search\\focus-011.json",
+      "retrieved_at": "2026-10-23T16:06:56.013586+08:00"
+    },
+    {
+      "id": 2183554,
+      "published_at": "2025-10-28T17:34:33+08:00",
+      "title": "【焦点复盘】沪指缩量十字星开启4000点争夺，有色板块遭遇重挫，军工板块午后逆势爆发",
+      "text": "",
+      "url": "https://www.cls.cn/detail/2183554",
+      "cache": "backfill\\search\\focus-011.json",
+      "retrieved_at": "2026-10-23T16:06:56.013586+08:00"
+    },
+    {
+      "id": 2182068,
+      "published_at": "2025-10-27T17:28:41+08:00",
+      "title": "【焦点复盘】沪指日线5连阳再冲4000大关，存储芯片股持续火爆，可控核聚变概念涨势重燃",
+      "text": "",
+      "url": "https://www.cls.cn/detail/2182068",
+      "cache": "backfill\\search\\focus-011.json",
+      "retrieved_at": "2026-10-23T16:06:56.013586+08:00"
+    },
+    {
+      "id": 2179886,
+      "published_at": "2025-10-24T17:23:20+08:00",
+      "title": "【焦点复盘】沪指时隔10年重上3950点，商业航天概念异军突起，“寒王”收复1500元大关重夺“股王”",
+      "text": "",
+      "url": "https://www.cls.cn/detail/2179886",
+      "cache": "backfill\\search\\focus-012.json",
+      "retrieved_at": "2026-10-23T16:06:56.399259+08:00"
+    },
+    {
+      "id": 2178481,
+      "published_at": "2025-10-23T17:21:37+08:00",
+      "title": "【焦点复盘】上证50日线3连阳创3年多新高，寒潮天气再度引爆煤炭股，农业银行日线14连阳终结",
+      "text": "",
+      "url": "https://www.cls.cn/detail/2178481",
+      "cache": "backfill\\search\\focus-012.json",
+      "retrieved_at": "2026-10-23T16:06:56.399259+08:00"
+    },
+    {
+      "id": 2177184,
+      "published_at": "2025-10-22T17:37:38+08:00",
+      "title": "【焦点复盘】沪指低开回升3900点失而复得，成交额再创2个多月地量，农业银行年内涨近六成",
+      "text": "",
+      "url": "https://www.cls.cn/detail/2177184",
+      "cache": "backfill\\search\\focus-012.json",
+      "retrieved_at": "2026-10-23T16:06:56.399259+08:00"
+    },
+    {
+      "id": 2175857,
+      "published_at": "2025-10-21T17:28:21+08:00",
+      "title": "【焦点复盘】TMT产业链强势做多，创业板指大涨超3%，国企改革概念异军突起",
+      "text": "",
+      "url": "https://www.cls.cn/detail/2175857",
+      "cache": "backfill\\search\\focus-012.json",
+      "retrieved_at": "2026-10-23T16:06:56.399259+08:00"
+    },
+    {
+      "id": 2174650,
+      "published_at": "2025-10-20T17:25:17+08:00",
+      "title": "【焦点复盘】创业板指缩量反弹涨近2%，两市成交额创2个月以来地量，超硬材料概念午后卷土重来",
+      "text": "",
+      "url": "https://www.cls.cn/detail/2174650",
+      "cache": "backfill\\search\\focus-012.json",
+      "retrieved_at": "2026-10-23T16:06:56.399259+08:00"
+    },
+    {
+      "id": 2172883,
+      "published_at": "2025-10-17T17:19:30+08:00",
+      "title": "【焦点复盘】沪指跌近2%失守30日均线，全市场超630股跌逾5%，寒潮概念股获逆势抱团",
+      "text": "",
+      "url": "https://www.cls.cn/detail/2172883",
+      "cache": "backfill\\search\\focus-012.json",
+      "retrieved_at": "2026-10-23T16:06:56.399259+08:00"
+    },
+    {
+      "id": 2171612,
+      "published_at": "2025-10-16T17:12:37+08:00",
+      "title": "【焦点复盘】保险、银行等红利股出手护盘，沪指缩量微涨力保3900点不失，两市成交额创1个月以来地量",
+      "text": "",
+      "url": "https://www.cls.cn/detail/2171612",
+      "cache": "backfill\\search\\focus-012.json",
+      "retrieved_at": "2026-10-23T16:06:56.399259+08:00"
+    },
+    {
+      "id": 2170355,
+      "published_at": "2025-10-15T17:32:18+08:00",
+      "title": "【焦点复盘】创指缩量涨超2%收复3000点关口，全市场近百股涨超10%，IDC电源概念午后爆发",
+      "text": "",
+      "url": "https://www.cls.cn/detail/2170355",
+      "cache": "backfill\\search\\focus-012.json",
+      "retrieved_at": "2026-10-23T16:06:56.399259+08:00"
+    },
+    {
+      "id": 2169075,
+      "published_at": "2025-10-14T17:35:00+08:00",
+      "title": "【焦点复盘】双创指数遭遇放量阴包阳，全市场超450股跌逾5%，银行等红利股逆势拉升",
+      "text": "",
+      "url": "https://www.cls.cn/detail/2169075",
+      "cache": "backfill\\search\\focus-012.json",
+      "retrieved_at": "2026-10-23T16:06:56.399259+08:00"
+    },
+    {
+      "id": 2167757,
+      "published_at": "2025-10-13T17:35:36+08:00",
+      "title": "【焦点复盘】科技、资源股携手做多，沪指近百点反攻坚守3800点，科创芯片龙头时隔1年多再获涨停",
+      "text": "",
+      "url": "https://www.cls.cn/detail/2167757",
+      "cache": "backfill\\search\\focus-012.json",
+      "retrieved_at": "2026-10-23T16:06:56.399259+08:00"
+    }
+  ],
+  "pages": 13,
+  "fetched_at": "2026-10-23T16:06:56.602680+08:00",
+  "error": null
+}

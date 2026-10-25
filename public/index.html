@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>先觉1.0 · 本地市场观察</title>
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="/style.css">
+  <script src="/app.js" defer></script>
+</head>
+<body>
+  <header class="topbar"><div class="top-inner">
+    <a class="brand" href="/" aria-label="先觉1.0首页"><img src="/favicon.svg" alt="" width="32" height="32"><span>先觉1.0</span><small>本地版</small></a>
+    <nav aria-label="主导航"><button id="nav-today" class="active">今日总览</button><button id="nav-history">历史回看</button><button id="nav-rules">评分说明</button></nav>
+    <div class="top-actions"><button id="status-button" class="status-button"><i></i><span id="sync-label">读取数据中</span></button><button id="refresh" class="outline"><span aria-hidden="true">↻</span> 更新行情</button></div>
+  </div></header>
+  <main>
+    <section class="page-heading"><div><div class="eyebrow">A-SHARE MARKET OBSERVATORY</div><h1 id="page-title">今日市场总览</h1><p id="page-subtitle">先看环境，再做仓位决定。</p></div><div class="heading-right"><div class="schedule"><span aria-hidden="true">◷</span> 午间 12:30 <b>·</b> 收盘 16:30 <small>北京时间</small></div><button id="return-today" class="text-button">返回最新交易日 ↗</button></div></section>
+    <div id="notice" class="notice" role="status">正在读取本地行情…</div>
+    <div class="workspace">
+      <aside class="month-rail panel"><div class="rail-title">历史月份 <span>↶</span></div><div id="months"></div><div id="history-coverage" class="rail-footer"></div></aside>
+      <div class="center-column">
+        <section id="summary" class="panel summary" aria-live="polite"></section>
+        <section id="market-strip" class="market-strip panel" aria-label="当日指数行情"></section>
+        <section class="panel calendar-panel">
+          <div class="calendar-heading"><div class="month-control"><button id="prev-month" class="round-button" aria-label="上个月">‹</button><h2 id="month-label"></h2><button id="next-month" class="round-button" aria-label="下个月">›</button></div><div class="segmented" aria-label="日历评分口径"><button data-mode="full">八维综合</button><button data-mode="reference" class="active">量价参考</button></div></div>
+          <div id="calendar-legend" class="calendar-legend"></div>
+          <div id="month-coverage" class="month-coverage"></div>
+          <div class="weekdays" aria-hidden="true"><span>周一</span><span>周二</span><span>周三</span><span>周四</span><span>周五</span><span>周六</span><span>周日</span></div>
+          <div id="calendar" class="calendar" aria-label="月度交易日历"></div>
+          <div id="calendar-note" class="calendar-note"></div>
+          <div id="month-gaps" class="month-gaps"></div>
+        </section>
+        <section class="panel chart-panel"><div class="section-title"><h2 id="chart-title">本月量价参考变化</h2><span id="chart-annotation"></span></div><div id="chart" class="chart"></div><p class="chart-note">ⓘ 缺失日期不连线；历史参考分按当前规则回算，不是当时发布的交易信号。</p></section>
+        <section class="panel daily-panel"><div class="section-title"><h2>本月逐日结论</h2><span>点击日期查看八维依据</span></div><div id="daily-list" class="daily-list"></div><p class="chart-note">收盘后判断用于后续交易准备。“减仓检查”需结合持仓失效位，不代表要求卖出所有持仓。</p></section>
+      </div>
+      <aside id="day-detail" class="panel detail-panel" aria-live="polite"></aside>
+    </div>
+    <footer><span>先觉1.0 · 数据与历史保存在本机</span><span>评分衡量市场环境，不代表胜率；个股减仓仍需检查自身条件。</span></footer>
+  </main>
+  <dialog id="rules-dialog"><div class="dialog-head"><div><div class="eyebrow">HOW IT WORKS</div><h2>如何阅读这张判断表</h2></div><button class="close-dialog round-button" aria-label="关闭评分说明">×</button></div><div class="dialog-body">
+    <p>先看右侧的<b>开仓 / 加仓 / 减仓</b>，再核对当天依据。市场分数是条件清单，不是收益预测，也不会替你执行买卖。</p>
+    <h3>八维综合分 · 证据齐全才计算总分</h3><p>指数趋势 20、量价承接 15、赚钱效应 15、短线情绪 15、主线持续 15、政策基本面 10、外部环境 5、事件风险 5。后六项需核验当日材料；每项分数是有解释的判断，不是精确概率。</p>
+    <div class="rule-bands"><div class="defense"><b>0—39</b>防守</div><div class="observe"><b>40—54</b>观察</div><div class="trial"><b>55—69</b>试仓</div><div class="advance"><b>70—100</b>进攻</div></div>
+    <p>即使达到 70 分，仍须同时满足封板率 ≥70%、赚钱效应持续改善、主线回踩有承接。任一项未核验，加仓保持“等待确认”。下跌占比 ≥80%，或跌停 ≥40 且封板率 &lt;60%，会触发防守覆盖。来源统计范围必须一致。</p>
+    <h3>量价参考分 · 可复算的历史观察尺</h3><p>三个指数等权计算趋势：收盘价 ≥ MA5 得 25 分，≥ MA20 得 30 分，MA20 较前日不降得 25 分，近 5 日收益不负得 20 分。趋势合计占 70%。</p><p>量能使用沪深合计成交额 / 前 5 日均额。三个指数当日平均涨幅不负时，量比 ≥1.1 / ≥0.9 / &lt;0.9 分别得 100 / 70 / 40；均跌时分别得 10 / 25 / 45。量能占 30%。午间不与全天成交额比较，仅展示趋势参考；午间和收盘参考不可直接等同比较。</p><p>这些阈值是明确的观察规则，未经过收益回测验证。量价参考分不包含完整市场广度、政策和事件证据，不能替代八维综合分。</p>
+    <h3>历史与更新</h3><p>午间和收盘分别留档。过去缺少午间观测，不会用收盘数据补造。历史综合分缺失时显示“待补评”；补录的复盘会显示评估时间。节假日沿用最近交易日，并显示日期。</p><p>新电脑默认未配置定时更新。配置本机 Codex 定时任务后，可在12:30 / 16:30核验更新，需要电脑开机、联网且 Codex 运行。未配置时可手动更新行情；打开网页也会检查行情漏更。更新失败会保留旧记录并显示失败状态。</p>
+    <h3>近一年历史补评口径</h3><p>标注“历史规则回评”的记录沿用八维权重，使用当日18:00前已公开的行情、收评、涨停/连板分析、早报及焦点复盘重建。趋势与量价按上方规则折算至20/15分；广度按报道的涨跌家数分档，约数保留约数。封板率按80/70/60%分为8/6/4/2分，晋级率按60/40/25%分为7/5/3/1分，两项构成情绪分。</p><p>主线以连续两个交易日公开报道中的活跃方向观察：延续12分、新方向8分、走弱4分，混合分歧减1分；政策以已公开的国内宏观、产业与政策事实评价，计划不等于落地。外部以当时最近的纳指收盘为代理，必要时明确标注期货或假期沿用。事件以已查新闻中的公司、贸易、重大事件线索评价；没有可用证据时保留空项。特殊日期有来源支持的人工补核，具体说明见当日各维度。</p><p><b>历史规则回评与实时人工研究存在方法差异。</b>这是对历史市场环境的重建，不是当时已经发布过的信号，也不是策略收益回测；新闻归档无法证明完全覆盖当时所有信息。收盘后的资料不能用于宣称当日盘中可执行。缺项不填中性分、不推算总分；本月缺口可在月历下方直接查看。</p>
+  </div></dialog>
+  <dialog id="status-dialog"><div class="dialog-head"><h2>数据与更新状态</h2><button class="close-dialog round-button" aria-label="关闭更新状态">×</button></div><div id="status-content" class="dialog-body"></div></dialog>
+  <div id="toast" role="status" class="toast" hidden></div>
+</body></html>

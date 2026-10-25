@@ -1,0 +1,148 @@
+{
+  "date": "2025-12-02",
+  "phase": "close",
+  "kind": "retrospective",
+  "model": "history-news-v1",
+  "asof": "2025-12-02T18:00:00+08:00",
+  "assessed_at": "2026-10-23T16:50:50.259336+08:00",
+  "sources": [
+    {
+      "id": "prices",
+      "title": "东方财富三指数历史日线（本机保存原始返回）",
+      "url": "https://quote.eastmoney.com/center/hszs.html",
+      "date": "2025-12-02",
+      "note": "按截至所选日的行情回算，原始文件与索引保存在 data/raw 和 data/indices.json"
+    },
+    {
+      "id": "cls-2216997",
+      "title": "收评：创业板指低开低走跌0.69% 福建板块逆势爆发",
+      "url": "https://www.cls.cn/detail/2216997",
+      "published_at": "2025-12-02T15:02:21+08:00",
+      "retrieved_at": "2026-10-23T16:06:10.935423+08:00",
+      "cache": "backfill\\search\\close-020.json"
+    },
+    {
+      "id": "cls-2217027",
+      "title": "12月2日涨停分析",
+      "url": "https://www.cls.cn/detail/2217027",
+      "published_at": "2025-12-02T15:19:29+08:00",
+      "retrieved_at": "2026-10-23T16:06:10.819679+08:00",
+      "cache": "backfill\\search\\limits-021.json"
+    },
+    {
+      "id": "cls-2217106",
+      "title": "12月2日连板股分析：连板股晋级率超六成 “炒地图”行情火热",
+      "url": "https://www.cls.cn/detail/2217106",
+      "published_at": "2025-12-02T16:14:44+08:00",
+      "retrieved_at": "2026-10-23T16:06:17.011115+08:00",
+      "cache": "backfill\\search\\leaders-010.json"
+    },
+    {
+      "id": "cls-2216575",
+      "title": "财联社12月2日早间新闻精选",
+      "url": "https://www.cls.cn/detail/2216575",
+      "published_at": "2025-12-02T08:18:04+08:00",
+      "retrieved_at": "2026-10-23T16:06:17.953748+08:00",
+      "cache": "backfill\\search\\morning-010.json"
+    }
+  ],
+  "dimensions": [
+    {
+      "key": "trend",
+      "score": 9,
+      "reason": "三个指数等权：收盘相对MA5/MA20、MA20方向及5日收益四项检查，再折算至20分。",
+      "source_ids": [
+        "prices"
+      ]
+    },
+    {
+      "key": "volume",
+      "score": 4,
+      "reason": "沪深成交额较前5日均额为0.909倍；结合三指数当日平均涨跌方向评分，非单看放量。",
+      "source_ids": [
+        "prices"
+      ]
+    },
+    {
+      "key": "breadth",
+      "score": 5,
+      "reason": "全市场超3700只个股下跌；按新闻家数档位评价广度。约数保持约数，不推算精确涨跌占比。",
+      "source_ids": [
+        "cls-2216997"
+      ]
+    },
+    {
+      "key": "sentiment",
+      "score": 13,
+      "reason": "封板率71%，连板晋级率61.11%；两项分档合计，不含ST和退市股。",
+      "source_ids": [
+        "cls-2217027",
+        "cls-2217106"
+      ]
+    },
+    {
+      "key": "theme",
+      "score": 8,
+      "reason": "活跃方向：商业航天。以连续新闻描述观察主线；不把连板本身认作回踩承接。",
+      "source_ids": [
+        "cls-2217106"
+      ]
+    },
+    {
+      "key": "external",
+      "score": 3,
+      "reason": "当日早间报道的最近美股收盘：纳指-0.38%。仅作海外科技风险偏好代理，不涵盖全部海外风险。",
+      "source_ids": [
+        "cls-2216575"
+      ]
+    },
+    {
+      "key": "events",
+      "score": 3,
+      "reason": "当日新闻窗口发现2条公司、贸易或重大事件线索；需避开对应公司事件暴露。这是新闻风险观察，未完成全市场公告与解禁穷尽核查。",
+      "source_ids": [
+        "cls-2216575"
+      ]
+    },
+    {
+      "key": "policy",
+      "score": 5,
+      "reason": "国内地产供应预期回升、国产AI模型发布，存在结构性产业支持；未据此判断总量基本面已反转。",
+      "source_ids": [
+        "cls-2216575"
+      ]
+    }
+  ],
+  "conditions": [
+    {
+      "key": "seal",
+      "status": "pass",
+      "detail": "当日封板率71%"
+    },
+    {
+      "key": "breadth",
+      "status": "fail",
+      "detail": "未证实连续两日广度改善；单日反弹不通过。"
+    },
+    {
+      "key": "theme",
+      "status": "unknown",
+      "detail": "新闻中的板块上涨或连板不足以证明主线回踩承接，需另有明确证据。"
+    }
+  ],
+  "reasons": [
+    "按截至当日18:00的公开资料重建八维评分；仅用于历史环境回看。",
+    "已核验8/8项；资料齐全后按分档显示开仓条件。",
+    "分数达标仍需封板、广度和回踩承接三项同时通过；减仓要结合持仓失效位。"
+  ],
+  "metrics": {
+    "breadth_note": "全市场超3700只个股下跌",
+    "seal_rate": 71.0,
+    "continuation": 61.11,
+    "limit_up": 47,
+    "broken": 19,
+    "scope": "涨停/炸板/封板率/晋级率：财联社，不含ST和退市股。广度为报道约数；不与非ST样本混算占比。"
+  },
+  "missing": [],
+  "research_note": "按当日18:00前公开资料进行规则回评；不代表当时发布过信号。新闻因子与原人工评估有方法差异，未做收益回测。"
+}

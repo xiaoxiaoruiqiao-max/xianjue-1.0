@@ -1,0 +1,156 @@
+{
+  "date": "2025-10-28",
+  "phase": "close",
+  "kind": "retrospective",
+  "model": "history-news-v1",
+  "asof": "2025-10-28T18:00:00+08:00",
+  "assessed_at": "2026-10-23T16:50:50.259336+08:00",
+  "sources": [
+    {
+      "id": "prices",
+      "title": "东方财富三指数历史日线（本机保存原始返回）",
+      "url": "https://quote.eastmoney.com/center/hszs.html",
+      "date": "2025-10-28",
+      "note": "按截至所选日的行情回算，原始文件与索引保存在 data/raw 和 data/indices.json"
+    },
+    {
+      "id": "cls-2183240",
+      "title": "10月28日涨停分析",
+      "url": "https://www.cls.cn/detail/2183240",
+      "published_at": "2025-10-28T15:15:28+08:00",
+      "retrieved_at": "2026-10-23T16:06:11.592793+08:00",
+      "cache": "backfill\\search\\limits-023.json"
+    },
+    {
+      "id": "cls-2183335",
+      "title": "10月28日连板股分析：高位情绪股持续低迷 福建板块全面爆发",
+      "url": "https://www.cls.cn/detail/2183335",
+      "published_at": "2025-10-28T16:09:45+08:00",
+      "retrieved_at": "2026-10-23T16:06:17.457257+08:00",
+      "cache": "backfill\\search\\leaders-011.json"
+    },
+    {
+      "id": "cls-2181775",
+      "title": "10月27日连板股分析：连板股晋级率高达六成 存储芯片概念持续加强",
+      "url": "https://www.cls.cn/detail/2181775",
+      "published_at": "2025-10-27T15:41:52+08:00",
+      "retrieved_at": "2026-10-23T16:06:51.638368+08:00",
+      "cache": "backfill\\search\\leaders-012.json"
+    },
+    {
+      "id": "cls-2182753",
+      "title": "财联社10月28日早间新闻精选",
+      "url": "https://www.cls.cn/detail/2182753",
+      "published_at": "2025-10-28T08:24:05+08:00",
+      "retrieved_at": "2026-10-23T16:06:51.635460+08:00",
+      "cache": "backfill\\search\\morning-011.json"
+    },
+    {
+      "id": "cls-2183554",
+      "title": "【焦点复盘】沪指缩量十字星开启4000点争夺，有色板块遭遇重挫，军工板块午后逆势爆发",
+      "url": "https://www.cls.cn/detail/2183554",
+      "published_at": "2025-10-28T17:34:33+08:00",
+      "retrieved_at": "2026-10-23T16:10:34.293991+08:00",
+      "cache": "backfill/articles/2183554.json"
+    }
+  ],
+  "dimensions": [
+    {
+      "key": "trend",
+      "score": 20,
+      "reason": "三个指数等权：收盘相对MA5/MA20、MA20方向及5日收益四项检查，再折算至20分。",
+      "source_ids": [
+        "prices"
+      ]
+    },
+    {
+      "key": "volume",
+      "score": 2,
+      "reason": "沪深成交额较前5日均额为1.130倍；结合三指数当日平均涨跌方向评分，非单看放量。",
+      "source_ids": [
+        "prices"
+      ]
+    },
+    {
+      "key": "sentiment",
+      "score": 11,
+      "reason": "封板率76%，连板晋级率58%；两项分档合计，不含ST和退市股。",
+      "source_ids": [
+        "cls-2183240",
+        "cls-2183335"
+      ]
+    },
+    {
+      "key": "theme",
+      "score": 12,
+      "reason": "活跃方向：区域改革、半导体；与上一交易日相同：半导体。以连续新闻描述观察主线；不把连板本身认作回踩承接。",
+      "source_ids": [
+        "cls-2183335",
+        "cls-2181775"
+      ]
+    },
+    {
+      "key": "policy",
+      "score": 6,
+      "reason": "稳增长、产业或市场支持表述。仅评价当日已公开政策叙事，不等于盈利兑现。",
+      "source_ids": [
+        "cls-2182753"
+      ]
+    },
+    {
+      "key": "external",
+      "score": 5,
+      "reason": "当日早间报道的最近美股收盘：纳指+1.86%。仅作海外科技风险偏好代理，不涵盖全部海外风险。",
+      "source_ids": [
+        "cls-2182753"
+      ]
+    },
+    {
+      "key": "events",
+      "score": 3,
+      "reason": "当日新闻窗口发现2条公司、贸易或重大事件线索；需避开对应公司事件暴露。这是新闻风险观察，未完成全市场公告与解禁穷尽核查。",
+      "source_ids": [
+        "cls-2182753"
+      ]
+    },
+    {
+      "key": "breadth",
+      "score": 7,
+      "reason": "当日下跌家数略占上风，涨停与封板率上升；属于分化市场，未虚构精确涨跌家数。",
+      "source_ids": [
+        "cls-2183554"
+      ]
+    }
+  ],
+  "conditions": [
+    {
+      "key": "seal",
+      "status": "pass",
+      "detail": "当日封板率76%"
+    },
+    {
+      "key": "breadth",
+      "status": "unknown",
+      "detail": "未证实连续两日广度改善；单日反弹不通过。"
+    },
+    {
+      "key": "theme",
+      "status": "unknown",
+      "detail": "新闻中的板块上涨或连板不足以证明主线回踩承接，需另有明确证据。"
+    }
+  ],
+  "reasons": [
+    "按截至当日18:00的公开资料重建八维评分；仅用于历史环境回看。",
+    "已核验8/8项；资料齐全后按分档显示开仓条件。",
+    "分数达标仍需封板、广度和回踩承接三项同时通过；减仓要结合持仓失效位。"
+  ],
+  "metrics": {
+    "seal_rate": 76.0,
+    "continuation": 58.0,
+    "limit_up": 58,
+    "broken": 18,
+    "scope": "涨停/炸板/封板率/晋级率：财联社，不含ST和退市股。广度为报道约数；不与非ST样本混算占比。"
+  },
+  "missing": [],
+  "research_note": "按当日18:00前公开资料进行规则回评；不代表当时发布过信号。新闻因子与原人工评估有方法差异，未做收益回测。"
+}

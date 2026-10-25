@@ -1,0 +1,168 @@
+{
+  "date": "2026-06-15",
+  "phase": "close",
+  "kind": "retrospective",
+  "model": "history-news-v1",
+  "asof": "2026-06-15T18:00:00+08:00",
+  "assessed_at": "2026-10-23T16:50:50.259336+08:00",
+  "sources": [
+    {
+      "id": "prices",
+      "title": "东方财富三指数历史日线（本机保存原始返回）",
+      "url": "https://quote.eastmoney.com/center/hszs.html",
+      "date": "2026-06-15",
+      "note": "按截至所选日的行情回算，原始文件与索引保存在 data/raw 和 data/indices.json"
+    },
+    {
+      "id": "cls-2399962",
+      "title": "收评：创业板指大涨超5% PCB、CPO等AI硬件股集体走强",
+      "url": "https://www.cls.cn/detail/2399962",
+      "published_at": "2026-06-15T15:01:45+08:00",
+      "retrieved_at": "2026-10-23T16:06:05.572515+08:00",
+      "cache": "backfill\\search\\close-007.json"
+    },
+    {
+      "id": "cls-2399982",
+      "title": "6月15日涨停分析",
+      "url": "https://www.cls.cn/detail/2399982",
+      "published_at": "2026-06-15T15:14:21+08:00",
+      "retrieved_at": "2026-10-23T16:06:05.739655+08:00",
+      "cache": "backfill\\search\\limits-008.json"
+    },
+    {
+      "id": "cls-2400022",
+      "title": "6月15日连板股分析：连板股晋级率40% PCB板块全线爆发",
+      "url": "https://www.cls.cn/detail/2400022",
+      "published_at": "2026-06-15T15:44:01+08:00",
+      "retrieved_at": "2026-10-23T16:06:14.466094+08:00",
+      "cache": "backfill\\search\\leaders-004.json"
+    },
+    {
+      "id": "cls-2398315",
+      "title": "6月12日连板股分析：连板股晋级率不足二成 有色金属板块持续走强",
+      "url": "https://www.cls.cn/detail/2398315",
+      "published_at": "2026-06-12T16:18:41+08:00",
+      "retrieved_at": "2026-10-23T16:06:14.466094+08:00",
+      "cache": "backfill\\search\\leaders-004.json"
+    },
+    {
+      "id": "cls-2399501",
+      "title": "财联社6月15日早间新闻精选",
+      "url": "https://www.cls.cn/detail/2399501",
+      "published_at": "2026-06-15T08:18:46+08:00",
+      "retrieved_at": "2026-10-23T16:06:14.832049+08:00",
+      "cache": "backfill\\search\\morning-004.json"
+    },
+    {
+      "id": "cls-2400159",
+      "title": "【焦点复盘】硬科技、小金属携手发力，沪指日线6连阳收复20日均线，全市场超280股涨逾10%",
+      "url": "https://www.cls.cn/detail/2400159",
+      "published_at": "2026-06-15T17:27:26+08:00",
+      "retrieved_at": "2026-10-23T16:10:01.442097+08:00",
+      "cache": "backfill/articles/2400159.json"
+    }
+  ],
+  "dimensions": [
+    {
+      "key": "trend",
+      "score": 18,
+      "reason": "三个指数等权：收盘相对MA5/MA20、MA20方向及5日收益四项检查，再折算至20分。",
+      "source_ids": [
+        "prices"
+      ]
+    },
+    {
+      "key": "volume",
+      "score": 10,
+      "reason": "沪深成交额较前5日均额为1.097倍；结合三指数当日平均涨跌方向评分，非单看放量。",
+      "source_ids": [
+        "prices"
+      ]
+    },
+    {
+      "key": "breadth",
+      "score": 10,
+      "reason": "全市场超3900只个股上涨；按新闻家数档位评价广度。约数保持约数，不推算精确涨跌占比。",
+      "source_ids": [
+        "cls-2399962"
+      ]
+    },
+    {
+      "key": "sentiment",
+      "score": 11,
+      "reason": "封板率77%，连板晋级率40%；两项分档合计，不含ST和退市股。",
+      "source_ids": [
+        "cls-2399982",
+        "cls-2400022"
+      ]
+    },
+    {
+      "key": "theme",
+      "score": 12,
+      "reason": "活跃方向：AI算力、资源周期；与上一交易日相同：AI算力、资源周期。以连续新闻描述观察主线；不把连板本身认作回踩承接。",
+      "source_ids": [
+        "cls-2400022",
+        "cls-2398315"
+      ]
+    },
+    {
+      "key": "policy",
+      "score": 6,
+      "reason": "稳增长、产业或市场支持表述。仅评价当日已公开政策叙事，不等于盈利兑现。",
+      "source_ids": [
+        "cls-2399501"
+      ]
+    },
+    {
+      "key": "external",
+      "score": 4,
+      "reason": "当日早间报道的最近美股收盘：纳指+0.31%。仅作海外科技风险偏好代理，不涵盖全部海外风险。",
+      "source_ids": [
+        "cls-2399501"
+      ]
+    },
+    {
+      "key": "events",
+      "score": 2,
+      "reason": "三安集团被申请破产重整，部分热门公司澄清未达产或无相关合作；事件风险并未随板块上涨消失。",
+      "source_ids": [
+        "cls-2399501"
+      ]
+    }
+  ],
+  "conditions": [
+    {
+      "key": "seal",
+      "status": "pass",
+      "detail": "当日封板率77%"
+    },
+    {
+      "key": "breadth",
+      "status": "pass",
+      "detail": "连续两日上涨家数居多，广度档位较再前一日未下降；约数仅按档位比较。"
+    },
+    {
+      "key": "theme",
+      "status": "pass",
+      "detail": "复盘确认AI上游MLCC方向强修复，风华高科、宏达电子、火炬电子反包涨停，三环集团创高；已见调整后的板块核心承接。",
+      "source_ids": [
+        "cls-2400159"
+      ]
+    }
+  ],
+  "reasons": [
+    "按截至当日18:00的公开资料重建八维评分；仅用于历史环境回看。",
+    "已核验8/8项；资料齐全后按分档显示开仓条件。",
+    "分数达标仍需封板、广度和回踩承接三项同时通过；减仓要结合持仓失效位。"
+  ],
+  "metrics": {
+    "breadth_note": "全市场超3900只个股上涨",
+    "seal_rate": 77.0,
+    "continuation": 40.0,
+    "limit_up": 144,
+    "broken": 43,
+    "scope": "涨停/炸板/封板率/晋级率：财联社，不含ST和退市股。广度为报道约数；不与非ST样本混算占比。"
+  },
+  "missing": [],
+  "research_note": "按当日18:00前公开资料进行规则回评；不代表当时发布过信号。新闻因子与原人工评估有方法差异，未做收益回测。"
+}

@@ -1,0 +1,166 @@
+{
+  "date": "2025-11-28",
+  "phase": "close",
+  "kind": "retrospective",
+  "model": "history-news-v1",
+  "asof": "2025-11-28T18:00:00+08:00",
+  "assessed_at": "2026-10-23T16:50:50.259336+08:00",
+  "sources": [
+    {
+      "id": "prices",
+      "title": "东方财富三指数历史日线（本机保存原始返回）",
+      "url": "https://quote.eastmoney.com/center/hszs.html",
+      "date": "2025-11-28",
+      "note": "按截至所选日的行情回算，原始文件与索引保存在 data/raw 和 data/indices.json"
+    },
+    {
+      "id": "cls-2213997",
+      "title": "11月28日连板股分析：连板股晋级率40% 国晟科技走出15天10板",
+      "url": "https://www.cls.cn/detail/2213997",
+      "published_at": "2025-11-28T15:58:47+08:00",
+      "retrieved_at": "2026-10-23T16:06:17.011115+08:00",
+      "cache": "backfill\\search\\leaders-010.json"
+    },
+    {
+      "id": "cls-2213905",
+      "title": "11月28日涨停分析",
+      "url": "https://www.cls.cn/detail/2213905",
+      "published_at": "2025-11-28T15:13:01+08:00",
+      "retrieved_at": "2026-10-23T16:06:10.819679+08:00",
+      "cache": "backfill\\search\\limits-021.json"
+    },
+    {
+      "id": "cls-2213408",
+      "title": "财联社11月28日早间新闻精选",
+      "url": "https://www.cls.cn/detail/2213408",
+      "published_at": "2025-11-28T08:10:33+08:00",
+      "retrieved_at": "2026-10-23T16:06:17.953748+08:00",
+      "cache": "backfill\\search\\morning-010.json"
+    },
+    {
+      "id": "cls-2214176",
+      "title": "【焦点复盘】市场再现缩量普涨反弹，成交金额创近4个月地量，锂电池、机器人概念表现亮眼",
+      "url": "https://www.cls.cn/detail/2214176",
+      "published_at": "2025-11-28T17:50:48+08:00",
+      "retrieved_at": "2026-10-23T16:10:29.540573+08:00",
+      "cache": "backfill/articles/2214176.json"
+    },
+    {
+      "id": "cls-2213356",
+      "title": "普京：与乌克兰现领导层谈判无实际意义 | 环球市场",
+      "url": "https://www.cls.cn/detail/2213356",
+      "published_at": "2025-11-28T07:07:59+08:00",
+      "retrieved_at": "2026-10-23T16:20:46.025368+08:00",
+      "cache": "backfill/articles/2213356.json"
+    },
+    {
+      "id": "cls-2212174",
+      "title": "财联社11月27日早间新闻精选",
+      "url": "https://www.cls.cn/detail/2212174",
+      "published_at": "2025-11-27T08:02:33+08:00",
+      "retrieved_at": "2026-10-23T16:06:17.953748+08:00",
+      "cache": "backfill\\search\\morning-010.json"
+    }
+  ],
+  "dimensions": [
+    {
+      "key": "trend",
+      "score": 9,
+      "reason": "三个指数等权：收盘相对MA5/MA20、MA20方向及5日收益四项检查，再折算至20分。",
+      "source_ids": [
+        "prices"
+      ]
+    },
+    {
+      "key": "volume",
+      "score": 6,
+      "reason": "沪深成交额较前5日均额为0.881倍；结合三指数当日平均涨跌方向评分，非单看放量。",
+      "source_ids": [
+        "prices"
+      ]
+    },
+    {
+      "key": "breadth",
+      "score": 13,
+      "reason": "全市场超4000只个股上涨；按新闻家数档位评价广度。约数保持约数，不推算精确涨跌占比。",
+      "source_ids": [
+        "cls-2213997"
+      ]
+    },
+    {
+      "key": "sentiment",
+      "score": 11,
+      "reason": "封板率72%，连板晋级率40%；两项分档合计，不含ST和退市股。",
+      "source_ids": [
+        "cls-2213905",
+        "cls-2213997"
+      ]
+    },
+    {
+      "key": "theme",
+      "score": 8,
+      "reason": "活跃方向：商业航天、机器人。以连续新闻描述观察主线；不把连板本身认作回踩承接。",
+      "source_ids": [
+        "cls-2213997"
+      ]
+    },
+    {
+      "key": "policy",
+      "score": 6,
+      "reason": "稳增长、产业或市场支持表述。仅评价当日已公开政策叙事，不等于盈利兑现。",
+      "source_ids": [
+        "cls-2213408"
+      ]
+    },
+    {
+      "key": "events",
+      "score": 2,
+      "reason": "当日新闻窗口发现4条公司、贸易或重大事件线索；含立案、停牌核查、退市或业绩不及预期事项。这是新闻风险观察，未完成全市场公告与解禁穷尽核查。",
+      "source_ids": [
+        "cls-2213408",
+        "cls-2214176"
+      ]
+    },
+    {
+      "key": "external",
+      "score": 4,
+      "reason": "当日原文确认美国现货假期休市；沿用2025-11-27早间已知的最近纳指收盘涨跌+0.82%，不把休市写成零涨跌。",
+      "source_ids": [
+        "cls-2213356",
+        "cls-2212174"
+      ]
+    }
+  ],
+  "conditions": [
+    {
+      "key": "seal",
+      "status": "pass",
+      "detail": "当日封板率72%"
+    },
+    {
+      "key": "breadth",
+      "status": "pass",
+      "detail": "连续两日上涨家数居多，广度档位较再前一日未下降；约数仅按档位比较。"
+    },
+    {
+      "key": "theme",
+      "status": "unknown",
+      "detail": "新闻中的板块上涨或连板不足以证明主线回踩承接，需另有明确证据。"
+    }
+  ],
+  "reasons": [
+    "按截至当日18:00的公开资料重建八维评分；仅用于历史环境回看。",
+    "已核验8/8项；资料齐全后按分档显示开仓条件。",
+    "分数达标仍需封板、广度和回踩承接三项同时通过；减仓要结合持仓失效位。"
+  ],
+  "metrics": {
+    "breadth_note": "全市场超4000只个股上涨",
+    "seal_rate": 72.0,
+    "continuation": 40.0,
+    "limit_up": 70,
+    "broken": 27,
+    "scope": "涨停/炸板/封板率/晋级率：财联社，不含ST和退市股。广度为报道约数；不与非ST样本混算占比。"
+  },
+  "missing": [],
+  "research_note": "按当日18:00前公开资料进行规则回评；不代表当时发布过信号。新闻因子与原人工评估有方法差异，未做收益回测。"
+}

@@ -1,0 +1,148 @@
+{
+  "date": "2026-05-11",
+  "phase": "close",
+  "kind": "retrospective",
+  "model": "history-news-v1",
+  "asof": "2026-05-11T18:00:00+08:00",
+  "assessed_at": "2026-10-23T16:50:50.259336+08:00",
+  "sources": [
+    {
+      "id": "prices",
+      "title": "东方财富三指数历史日线（本机保存原始返回）",
+      "url": "https://quote.eastmoney.com/center/hszs.html",
+      "date": "2026-05-11",
+      "note": "按截至所选日的行情回算，原始文件与索引保存在 data/raw 和 data/indices.json"
+    },
+    {
+      "id": "cls-2367772",
+      "title": "收评：沪指放量突破4200点关口 科创50指数刷新历史新高",
+      "url": "https://www.cls.cn/detail/2367772",
+      "published_at": "2026-05-11T15:02:37+08:00",
+      "retrieved_at": "2026-10-23T16:06:06.372978+08:00",
+      "cache": "backfill\\search\\close-009.json"
+    },
+    {
+      "id": "cls-2367811",
+      "title": "5月11日涨停分析",
+      "url": "https://www.cls.cn/detail/2367811",
+      "published_at": "2026-05-11T15:25:31+08:00",
+      "retrieved_at": "2026-10-23T16:06:06.970510+08:00",
+      "cache": "backfill\\search\\limits-011.json"
+    },
+    {
+      "id": "cls-2367883",
+      "title": "5月11日连板股分析：连板股晋级率近四成 芯片产业链全线爆发",
+      "url": "https://www.cls.cn/detail/2367883",
+      "published_at": "2026-05-11T16:18:22+08:00",
+      "retrieved_at": "2026-10-23T16:06:14.878035+08:00",
+      "cache": "backfill\\search\\leaders-005.json"
+    },
+    {
+      "id": "cls-2367419",
+      "title": "财联社5月11日早间新闻精选",
+      "url": "https://www.cls.cn/detail/2367419",
+      "published_at": "2026-05-11T08:22:00+08:00",
+      "retrieved_at": "2026-10-23T16:06:15.425417+08:00",
+      "cache": "backfill\\search\\morning-005.json"
+    }
+  ],
+  "dimensions": [
+    {
+      "key": "trend",
+      "score": 20,
+      "reason": "三个指数等权：收盘相对MA5/MA20、MA20方向及5日收益四项检查，再折算至20分。",
+      "source_ids": [
+        "prices"
+      ]
+    },
+    {
+      "key": "volume",
+      "score": 15,
+      "reason": "沪深成交额较前5日均额为1.200倍；结合三指数当日平均涨跌方向评分，非单看放量。",
+      "source_ids": [
+        "prices"
+      ]
+    },
+    {
+      "key": "breadth",
+      "score": 10,
+      "reason": "全市场超3100只个股上涨；按新闻家数档位评价广度。约数保持约数，不推算精确涨跌占比。",
+      "source_ids": [
+        "cls-2367772"
+      ]
+    },
+    {
+      "key": "sentiment",
+      "score": 9,
+      "reason": "封板率73%，连板晋级率38.89%；两项分档合计，不含ST和退市股。",
+      "source_ids": [
+        "cls-2367811",
+        "cls-2367883"
+      ]
+    },
+    {
+      "key": "theme",
+      "score": 8,
+      "reason": "活跃方向：AI算力、半导体。以连续新闻描述观察主线；不把连板本身认作回踩承接。",
+      "source_ids": [
+        "cls-2367883"
+      ]
+    },
+    {
+      "key": "policy",
+      "score": 6,
+      "reason": "稳增长、产业或市场支持表述。仅评价当日已公开政策叙事，不等于盈利兑现。",
+      "source_ids": [
+        "cls-2367419"
+      ]
+    },
+    {
+      "key": "external",
+      "score": 5,
+      "reason": "当日早间报道的最近美股收盘：纳指+1.71%。仅作海外科技风险偏好代理，不涵盖全部海外风险。",
+      "source_ids": [
+        "cls-2367419"
+      ]
+    },
+    {
+      "key": "events",
+      "score": 2,
+      "reason": "当日新闻窗口发现4条公司、贸易或重大事件线索；含立案、停牌核查、退市或业绩不及预期事项。这是新闻风险观察，未完成全市场公告与解禁穷尽核查。",
+      "source_ids": [
+        "cls-2367419"
+      ]
+    }
+  ],
+  "conditions": [
+    {
+      "key": "seal",
+      "status": "pass",
+      "detail": "当日封板率73%"
+    },
+    {
+      "key": "breadth",
+      "status": "pass",
+      "detail": "连续两日上涨家数居多，广度档位较再前一日未下降；约数仅按档位比较。"
+    },
+    {
+      "key": "theme",
+      "status": "unknown",
+      "detail": "新闻中的板块上涨或连板不足以证明主线回踩承接，需另有明确证据。"
+    }
+  ],
+  "reasons": [
+    "按截至当日18:00的公开资料重建八维评分；仅用于历史环境回看。",
+    "已核验8/8项；资料齐全后按分档显示开仓条件。",
+    "分数达标仍需封板、广度和回踩承接三项同时通过；减仓要结合持仓失效位。"
+  ],
+  "metrics": {
+    "breadth_note": "全市场超3100只个股上涨",
+    "seal_rate": 73.0,
+    "continuation": 38.89,
+    "limit_up": 94,
+    "broken": 34,
+    "scope": "涨停/炸板/封板率/晋级率：财联社，不含ST和退市股。广度为报道约数；不与非ST样本混算占比。"
+  },
+  "missing": [],
+  "research_note": "按当日18:00前公开资料进行规则回评；不代表当时发布过信号。新闻因子与原人工评估有方法差异，未做收益回测。"
+}

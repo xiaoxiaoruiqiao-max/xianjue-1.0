@@ -1,0 +1,157 @@
+{
+  "date": "2026-09-24",
+  "phase": "close",
+  "kind": "retrospective",
+  "model": "history-news-v1",
+  "asof": "2026-09-24T18:00:00+08:00",
+  "assessed_at": "2026-10-23T16:50:50.259336+08:00",
+  "sources": [
+    {
+      "id": "prices",
+      "title": "东方财富三指数历史日线（本机保存原始返回）",
+      "url": "https://quote.eastmoney.com/center/hszs.html",
+      "date": "2026-09-24",
+      "note": "按截至所选日的行情回算，原始文件与索引保存在 data/raw 和 data/indices.json"
+    },
+    {
+      "id": "cls-2492184",
+      "title": "收评：创业板指、深成指低开低走均跌超2% 福建本地股逆势走强",
+      "url": "https://www.cls.cn/detail/2492184",
+      "published_at": "2026-09-24T15:01:44+08:00",
+      "retrieved_at": "2026-10-23T16:06:03.149874+08:00",
+      "cache": "backfill\\search\\close-001.json"
+    },
+    {
+      "id": "cls-2492208",
+      "title": "9月24日涨停分析",
+      "url": "https://www.cls.cn/detail/2492208",
+      "published_at": "2026-09-24T15:10:44+08:00",
+      "retrieved_at": "2026-10-23T16:06:03.026778+08:00",
+      "cache": "backfill\\search\\limits-001.json"
+    },
+    {
+      "id": "cls-2492250",
+      "title": "9月24日连板股分析：连板股晋级率超四成 “炒地图”行情升温",
+      "url": "https://www.cls.cn/detail/2492250",
+      "published_at": "2026-09-24T15:39:28+08:00",
+      "retrieved_at": "2026-10-23T16:06:12.661458+08:00",
+      "cache": "backfill\\search\\leaders-000.json"
+    },
+    {
+      "id": "cls-2491185",
+      "title": "9月23日连板股分析： 短线情绪持续降温 PCB板块强势回归",
+      "url": "https://www.cls.cn/detail/2491185",
+      "published_at": "2026-09-23T16:11:41+08:00",
+      "retrieved_at": "2026-10-23T16:06:12.661458+08:00",
+      "cache": "backfill\\search\\leaders-000.json"
+    },
+    {
+      "id": "cls-2491778",
+      "title": "财联社9月24日早间新闻精选",
+      "url": "https://www.cls.cn/detail/2491778",
+      "published_at": "2026-09-24T08:03:38+08:00",
+      "retrieved_at": "2026-10-23T16:06:12.933243+08:00",
+      "cache": "backfill\\search\\morning-000.json"
+    }
+  ],
+  "dimensions": [
+    {
+      "key": "trend",
+      "score": 1,
+      "reason": "三个指数等权：收盘相对MA5/MA20、MA20方向及5日收益四项检查，再折算至20分。",
+      "source_ids": [
+        "prices"
+      ]
+    },
+    {
+      "key": "volume",
+      "score": 7,
+      "reason": "沪深成交额较前5日均额为0.841倍；结合三指数当日平均涨跌方向评分，非单看放量。",
+      "source_ids": [
+        "prices"
+      ]
+    },
+    {
+      "key": "breadth",
+      "score": 3,
+      "reason": "全市场超4300只个股下跌；按新闻家数档位评价广度。约数保持约数，不推算精确涨跌占比。",
+      "source_ids": [
+        "cls-2492184"
+      ]
+    },
+    {
+      "key": "sentiment",
+      "score": 13,
+      "reason": "封板率84%，连板晋级率41.67%；两项分档合计，不含ST和退市股。",
+      "source_ids": [
+        "cls-2492208",
+        "cls-2492250"
+      ]
+    },
+    {
+      "key": "policy",
+      "score": 5,
+      "reason": "国内政策或宏观事实，方向未明确。仅评价当日已公开政策叙事，不等于盈利兑现。",
+      "source_ids": [
+        "cls-2491778"
+      ]
+    },
+    {
+      "key": "external",
+      "score": 2,
+      "reason": "当日早间报道的最近美股收盘：纳指-1.13%。仅作海外科技风险偏好代理，不涵盖全部海外风险。",
+      "source_ids": [
+        "cls-2491778"
+      ]
+    },
+    {
+      "key": "events",
+      "score": 2,
+      "reason": "优利德说明不具备所述应用测试能力，海峡恢复通航仍有条件；海外加息预期上升，按多重事件风险处理。",
+      "source_ids": [
+        "cls-2491778"
+      ]
+    },
+    {
+      "key": "theme",
+      "score": 12,
+      "reason": "人工复核：23日PCB分支矢量网络分析仪已有多股走强，24日该概念继续发酵、多股涨停；福建本地股新增活跃。由两日行业描述确认连续性。",
+      "source_ids": [
+        "cls-2491185",
+        "cls-2492250"
+      ]
+    }
+  ],
+  "conditions": [
+    {
+      "key": "seal",
+      "status": "pass",
+      "detail": "当日封板率84%"
+    },
+    {
+      "key": "breadth",
+      "status": "fail",
+      "detail": "未证实连续两日广度改善；单日反弹不通过。"
+    },
+    {
+      "key": "theme",
+      "status": "unknown",
+      "detail": "新闻中的板块上涨或连板不足以证明主线回踩承接，需另有明确证据。"
+    }
+  ],
+  "reasons": [
+    "按截至当日18:00的公开资料重建八维评分；仅用于历史环境回看。",
+    "已核验8/8项；资料齐全后按分档显示开仓条件。",
+    "分数达标仍需封板、广度和回踩承接三项同时通过；减仓要结合持仓失效位。"
+  ],
+  "metrics": {
+    "breadth_note": "全市场超4300只个股下跌",
+    "seal_rate": 84.0,
+    "continuation": 41.67,
+    "limit_up": 52,
+    "broken": 10,
+    "scope": "涨停/炸板/封板率/晋级率：财联社，不含ST和退市股。广度为报道约数；不与非ST样本混算占比。"
+  },
+  "missing": [],
+  "research_note": "按当日18:00前公开资料进行规则回评；不代表当时发布过信号。新闻因子与原人工评估有方法差异，未做收益回测。"
+}

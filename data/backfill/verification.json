@@ -1,0 +1,77 @@
+{
+  "checked_at": "2026-10-23T16:53:31.880222+08:00",
+  "start": "2025-10-23",
+  "end": "2026-10-23",
+  "trading_days": 243,
+  "complete_eight_dimension_close_reviews": 243,
+  "new_historical_reviews": 241,
+  "preserved_original_hashes": {
+    "2026-10-22-close.json": true,
+    "2026-10-23-close.json": true
+  },
+  "midday_snapshots": 0,
+  "unique_news_sources_used": 1047,
+  "state_counts": {
+    "trial": 83,
+    "advance": 42,
+    "observe": 76,
+    "defense": 42
+  },
+  "conditional_add_candidates": [
+    {
+      "date": "2026-01-22",
+      "score": 75
+    },
+    {
+      "date": "2026-01-23",
+      "score": 78
+    },
+    {
+      "date": "2026-06-15",
+      "score": 73
+    }
+  ],
+  "unknown_add_condition_days": 240,
+  "factor_gaps": [],
+  "price_news_sh_comparison": {
+    "matched": 226,
+    "mismatches": 0,
+    "not_parsed_or_unavailable_dates": [
+      "2025-10-31",
+      "2025-11-28",
+      "2025-12-31",
+      "2026-01-30",
+      "2026-02-13",
+      "2026-02-27",
+      "2026-03-31",
+      "2026-04-30",
+      "2026-05-08",
+      "2026-05-29",
+      "2026-06-04",
+      "2026-06-30",
+      "2026-07-31",
+      "2026-08-31",
+      "2026-09-30"
+    ]
+  },
+  "monthly_counts": {
+    "2025-10": 7,
+    "2025-11": 20,
+    "2025-12": 23,
+    "2026-01": 20,
+    "2026-02": 14,
+    "2026-03": 22,
+    "2026-04": 21,
+    "2026-05": 18,
+    "2026-06": 21,
+    "2026-07": 23,
+    "2026-08": 21,
+    "2026-09": 21,
+    "2026-10": 12
+  },
+  "tests": {
+    "automated_passed": 32,
+    "javascript_syntax": "pass"
+  },
+  "scope": "Historical news proxy reconstruction; no return backtest; not certified point-in-time; no fabricated midday snapshots."
+}

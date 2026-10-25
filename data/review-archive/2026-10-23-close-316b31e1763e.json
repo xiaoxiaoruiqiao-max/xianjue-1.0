@@ -1,0 +1,161 @@
+{
+  "date": "2026-10-23",
+  "phase": "close",
+  "kind": "observed",
+  "asof": "2026-10-23T15:27:11+08:00",
+  "assessed_at": "2026-10-23T15:27:11+08:00",
+  "model": "eight-factor-review-v1",
+  "sources": [
+    {
+      "id": "prices",
+      "title": "东方财富：三大指数原始日线",
+      "url": "https://quote.eastmoney.com/center/hszs.html",
+      "note": "本机已保存原始响应及SHA-256；均线仅用截至所选日行情"
+    },
+    {
+      "id": "policy",
+      "title": "两办：推动科技创新和产业创新深度融合",
+      "url": "https://www.forestry.gov.cn/lyj/1/szxx/20261021/693019.html",
+      "date": "2026-10-21",
+      "note": "新华社原文，政府网站发布"
+    },
+    {
+      "id": "macro",
+      "title": "国家统计局：前三季度国民经济运行情况",
+      "url": "https://www.stats.gov.cn/sj/zxfbhjd/202610/t20261019_1965618.html",
+      "date": "2026-10-19"
+    },
+    {
+      "id": "events",
+      "title": "三季报进入密集披露期：10月19日至25日事项",
+      "url": "https://finance.eastmoney.com/a/202610183899179482.html",
+      "published_at": "2026-10-18T21:22:00+08:00",
+      "note": "央广财经；日程不等于已发生的利好"
+    },
+    {
+      "id": "close",
+      "title": "财联社：10月23日收评",
+      "url": "https://www.cls.cn/detail/2513429",
+      "published_at": "2026-10-23T15:01:38+08:00",
+      "note": "上涨家数为超4500的约数"
+    },
+    {
+      "id": "mood",
+      "title": "财联社：10月23日涨停分析",
+      "url": "https://www.cls.cn/detail/2513445",
+      "published_at": "2026-10-23T15:14:24+08:00",
+      "note": "82涨停、12炸板；封板率原文87%，非ST非退市口径"
+    },
+    {
+      "id": "external",
+      "title": "Choice：隔夜全球市场",
+      "url": "https://finance.eastmoney.com/a/202610233904666253.html",
+      "published_at": "2026-10-23T06:15:00+08:00",
+      "note": "美国10月22日收盘，北京时间10月23日可得"
+    },
+    {
+      "id": "geopolitics",
+      "title": "商务部回应科研合作限制（财联社转述）",
+      "url": "https://www.cls.cn/detail/2513414",
+      "published_at": "2026-10-23T14:51:00+08:00"
+    }
+  ],
+  "dimensions": [
+    {
+      "key": "trend",
+      "score": 7,
+      "reason": "三大指数反弹，但均未收复MA20；深成指刚站上MA5，上证与创业板仍在MA5下方。属于修复，趋势反转未确认。",
+      "source_ids": [
+        "prices"
+      ]
+    },
+    {
+      "key": "volume",
+      "score": 12,
+      "reason": "沪深成交1.9563万亿元，较前日增27.97%，为前5日均额的1.321倍。上涨伴随放量，承接比昨日改善。",
+      "source_ids": [
+        "prices",
+        "close"
+      ]
+    },
+    {
+      "key": "breadth",
+      "score": 12,
+      "reason": "全市场超4500只股票上涨，广度显著修复；仅一个交易日，不能据此认定连续改善。",
+      "source_ids": [
+        "close"
+      ]
+    },
+    {
+      "key": "sentiment",
+      "score": 11,
+      "reason": "财联社非ST非退市口径涨停82只、连板12只、炸板12只，报道封板率87%。情绪修复明显，后续延续性需确认。",
+      "source_ids": [
+        "mood"
+      ]
+    },
+    {
+      "key": "theme",
+      "score": 10,
+      "reason": "机器人延续活跃，大业股份6连板，多只个股晋级；物理AI与非银也走强。热点轮动较快，回踩承接未验证。",
+      "source_ids": [
+        "close",
+        "mood"
+      ]
+    },
+    {
+      "key": "policy",
+      "score": 6,
+      "reason": "科技与产业创新政策仍提供中期方向。宏观增长与投资压力并存，政策支持不等于短线行情已反转。",
+      "source_ids": [
+        "policy",
+        "macro"
+      ]
+    },
+    {
+      "key": "external",
+      "score": 1,
+      "reason": "隔夜纳指跌2.60%、费城半导体指数跌6.72%；今天的A股反弹尚未消除外部科技股波动风险。",
+      "source_ids": [
+        "external"
+      ]
+    },
+    {
+      "key": "events",
+      "score": 2,
+      "reason": "三季报仍处密集披露期，叠加科研合作限制消息，个股业绩与跨市场隔夜风险继续约束仓位。",
+      "source_ids": [
+        "events",
+        "geopolitics"
+      ]
+    }
+  ],
+  "metrics": {
+    "limit_up": 82,
+    "broken": 12,
+    "seal_rate": 87,
+    "scope": "涨停、炸板及封板率采用财联社非ST、非退市口径；封板率87%为原文四舍五入值。上涨超4500为约数，不用于计算精确广度比例。"
+  },
+  "conditions": [
+    {
+      "key": "seal",
+      "status": "pass",
+      "detail": "财联社原文87%，已超过70%"
+    },
+    {
+      "key": "breadth",
+      "status": "unknown",
+      "detail": "今日大幅修复，待下个交易日延续"
+    },
+    {
+      "key": "theme",
+      "status": "unknown",
+      "detail": "机器人活跃，回踩承接仍待验证"
+    }
+  ],
+  "reasons": [
+    "放量普涨，赚钱效应与封板质量明显修复。",
+    "三大指数仍在MA20下方，尚不能确认趋势反转。",
+    "先等强势方向回踩与广度延续；今天的反弹不自动触发加仓。"
+  ]
+}

@@ -1,0 +1,166 @@
+{
+  "date": "2026-02-11",
+  "phase": "close",
+  "kind": "retrospective",
+  "model": "history-news-v1",
+  "asof": "2026-02-11T18:00:00+08:00",
+  "assessed_at": "2026-10-23T16:50:50.259336+08:00",
+  "sources": [
+    {
+      "id": "prices",
+      "title": "东方财富三指数历史日线（本机保存原始返回）",
+      "url": "https://quote.eastmoney.com/center/hszs.html",
+      "date": "2026-02-11",
+      "note": "按截至所选日的行情回算，原始文件与索引保存在 data/raw 和 data/indices.json"
+    },
+    {
+      "id": "cls-2287044",
+      "title": "收评：创业板指低开低走跌超1% 两市成交额不足2万亿",
+      "url": "https://www.cls.cn/detail/2287044",
+      "published_at": "2026-02-11T15:03:28+08:00",
+      "retrieved_at": "2026-10-23T16:06:08.830309+08:00",
+      "cache": "backfill\\search\\close-015.json"
+    },
+    {
+      "id": "cls-2287064",
+      "title": "2月11日涨停分析",
+      "url": "https://www.cls.cn/detail/2287064",
+      "published_at": "2026-02-11T15:17:36+08:00",
+      "retrieved_at": "2026-10-23T16:06:08.866199+08:00",
+      "cache": "backfill\\search\\limits-016.json"
+    },
+    {
+      "id": "cls-2287136",
+      "title": "2月11日连板股分析：连板股晋级率38% 电子布概念股爆发",
+      "url": "https://www.cls.cn/detail/2287136",
+      "published_at": "2026-02-11T16:04:42+08:00",
+      "retrieved_at": "2026-10-23T16:06:16.195971+08:00",
+      "cache": "backfill\\search\\leaders-008.json"
+    },
+    {
+      "id": "cls-2285867",
+      "title": "2月10日连板股分析：横店影视走出9天7板 传媒板块全线爆发",
+      "url": "https://www.cls.cn/detail/2285867",
+      "published_at": "2026-02-10T15:52:10+08:00",
+      "retrieved_at": "2026-10-23T16:06:16.195971+08:00",
+      "cache": "backfill\\search\\leaders-008.json"
+    },
+    {
+      "id": "cls-2286552",
+      "title": "财联社2月11日早间新闻精选",
+      "url": "https://www.cls.cn/detail/2286552",
+      "published_at": "2026-02-11T08:00:40+08:00",
+      "retrieved_at": "2026-10-23T16:06:16.901633+08:00",
+      "cache": "backfill\\search\\morning-008.json"
+    },
+    {
+      "id": "cls-2287287",
+      "title": "【焦点复盘】沪指缩量微涨录得日线7连阳，影视传媒股全天低迷，涨价概念现多点开花",
+      "url": "https://www.cls.cn/detail/2287287",
+      "published_at": "2026-02-11T17:23:40+08:00",
+      "retrieved_at": "2026-10-23T16:10:18.443752+08:00",
+      "cache": "backfill/articles/2287287.json"
+    }
+  ],
+  "dimensions": [
+    {
+      "key": "trend",
+      "score": 10,
+      "reason": "三个指数等权：收盘相对MA5/MA20、MA20方向及5日收益四项检查，再折算至20分。",
+      "source_ids": [
+        "prices"
+      ]
+    },
+    {
+      "key": "volume",
+      "score": 7,
+      "reason": "沪深成交额较前5日均额为0.889倍；结合三指数当日平均涨跌方向评分，非单看放量。",
+      "source_ids": [
+        "prices"
+      ]
+    },
+    {
+      "key": "breadth",
+      "score": 5,
+      "reason": "全市场超3200只个股下跌；按新闻家数档位评价广度。约数保持约数，不推算精确涨跌占比。",
+      "source_ids": [
+        "cls-2287044"
+      ]
+    },
+    {
+      "key": "sentiment",
+      "score": 9,
+      "reason": "封板率75%，连板晋级率38%；两项分档合计，不含ST和退市股。",
+      "source_ids": [
+        "cls-2287064",
+        "cls-2287136"
+      ]
+    },
+    {
+      "key": "theme",
+      "score": 11,
+      "reason": "活跃方向：传媒、资源周期；与上一交易日相同：传媒；分歧或走弱：传媒。以连续新闻描述观察主线；不把连板本身认作回踩承接。",
+      "source_ids": [
+        "cls-2287136",
+        "cls-2285867"
+      ]
+    },
+    {
+      "key": "policy",
+      "score": 8,
+      "reason": "已宣布的货币宽松措施；稳增长、产业或市场支持表述。仅评价当日已公开政策叙事，不等于盈利兑现。",
+      "source_ids": [
+        "cls-2286552"
+      ]
+    },
+    {
+      "key": "external",
+      "score": 3,
+      "reason": "当日早间报道的最近美股收盘：纳指-0.59%。仅作海外科技风险偏好代理，不涵盖全部海外风险。",
+      "source_ids": [
+        "cls-2286552"
+      ]
+    },
+    {
+      "key": "events",
+      "score": 2,
+      "reason": "当日新闻窗口发现2条公司、贸易或重大事件线索；含立案、停牌核查、退市或业绩不及预期事项。这是新闻风险观察，未完成全市场公告与解禁穷尽核查。",
+      "source_ids": [
+        "cls-2286552",
+        "cls-2287287"
+      ]
+    }
+  ],
+  "conditions": [
+    {
+      "key": "seal",
+      "status": "pass",
+      "detail": "当日封板率75%"
+    },
+    {
+      "key": "breadth",
+      "status": "fail",
+      "detail": "未证实连续两日广度改善；单日反弹不通过。"
+    },
+    {
+      "key": "theme",
+      "status": "unknown",
+      "detail": "新闻中的板块上涨或连板不足以证明主线回踩承接，需另有明确证据。"
+    }
+  ],
+  "reasons": [
+    "按截至当日18:00的公开资料重建八维评分；仅用于历史环境回看。",
+    "已核验8/8项；资料齐全后按分档显示开仓条件。",
+    "分数达标仍需封板、广度和回踩承接三项同时通过；减仓要结合持仓失效位。"
+  ],
+  "metrics": {
+    "breadth_note": "全市场超3200只个股下跌",
+    "seal_rate": 75.0,
+    "continuation": 38.0,
+    "limit_up": 51,
+    "broken": 17,
+    "scope": "涨停/炸板/封板率/晋级率：财联社，不含ST和退市股。广度为报道约数；不与非ST样本混算占比。"
+  },
+  "missing": [],
+  "research_note": "按当日18:00前公开资料进行规则回评；不代表当时发布过信号。新闻因子与原人工评估有方法差异，未做收益回测。"
+}

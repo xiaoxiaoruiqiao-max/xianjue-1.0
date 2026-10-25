@@ -1,0 +1,52 @@
+name: Verify local deployment
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [windows-latest, ubuntu-latest]
+    runs-on: ${{ matrix.os }}
+    steps:
+      - uses: actions/checkout@v7.0.1
+      - uses: actions/setup-python@v7.1.0
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-node@v7.1.0
+        with:
+          node-version: '22'
+      - name: Build cached dashboard without network
+        run: python update.py --offline
+      - name: Python and fresh-checkout HTTP tests
+        run: python -m unittest discover -s tests -v
+      - name: Frontend regression tests
+        run: node --test tests/test_frontend.cjs
+      - name: JavaScript syntax
+        run: node --check public/app.js
+      - name: Windows launcher
+        if: runner.os == 'Windows'
+        shell: pwsh
+        run: |
+          python -m venv --without-pip '验证 空格路径/.venv'
+          $env:Path = (Join-Path (Get-Location) '验证 空格路径/.venv/Scripts') + ';' + $env:Path
+          powershell.exe -NoProfile -ExecutionPolicy Bypass -File .\start.ps1 -NoBrowser -Port 18790
+          if ($LASTEXITCODE -ne 0) { throw 'Launcher failed' }
+          $health = Invoke-RestMethod http://127.0.0.1:18790/api/health
+          if ($health.project_root -ne (Get-Location).Path) { throw 'Wrong checkout' }
+          try {
+            $page = Invoke-WebRequest http://127.0.0.1:18790/ -UseBasicParsing
+            if ($page.StatusCode -ne 200) { throw 'Page unavailable' }
+            powershell.exe -NoProfile -ExecutionPolicy Bypass -File .\start.ps1 -NoBrowser -Port 18790
+            if ($LASTEXITCODE -ne 0) { throw 'Repeated launcher failed' }
+          } finally {
+            $serverProcessId = [int](Get-Content data/server.pid)
+            Stop-Process -Id $serverProcessId
+          }

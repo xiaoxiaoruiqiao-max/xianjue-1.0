@@ -1,0 +1,228 @@
+{
+  "date": "2026-10-23",
+  "phase": "close",
+  "kind": "observed",
+  "asof": "2026-10-23T17:04:35.127490+08:00",
+  "assessed_at": "2026-10-23T17:04:35.127490+08:00",
+  "model": "eight-factor-review-v1",
+  "sources": [
+    {
+      "id": "prices",
+      "title": "东方财富：三大指数原始日线",
+      "url": "https://quote.eastmoney.com/center/hszs.html",
+      "note": "历史日线沿用本机东方财富存档；今日收盘由腾讯/新浪点位及成交额交叉核验，均线仅用截至当日数据。",
+      "date": "2026-10-23"
+    },
+    {
+      "id": "policy",
+      "title": "两办：推动科技创新和产业创新深度融合",
+      "url": "https://www.forestry.gov.cn/lyj/1/szxx/20261021/693019.html",
+      "date": "2026-10-21",
+      "note": "10月21日发布的中期政策。本轮复核原文和当日早报；所查材料未出现相反规定，不代表穷尽政策核查。",
+      "retrieved_at": "2026-10-23T17:00:50.172527+08:00",
+      "cache": "runs\\2026-10-23-close-165939\\policy-source.json"
+    },
+    {
+      "id": "macro",
+      "title": "国家统计局：前三季度国民经济运行情况",
+      "url": "https://www.stats.gov.cn/sj/zxfbhjd/202610/t20261019_1965618.html",
+      "date": "2026-10-19",
+      "retrieved_at": "2026-10-23T17:00:50.650270+08:00",
+      "cache": "runs\\2026-10-23-close-165939\\macro-source.json",
+      "published_at": "2026-10-19T10:00:00+08:00"
+    },
+    {
+      "id": "events",
+      "title": "三季报进入密集披露期：10月19日至25日事项",
+      "url": "https://finance.eastmoney.com/a/202610183899179482.html",
+      "published_at": "2026-10-18T21:22:00+08:00",
+      "note": "央广财经；日程不等于已发生的利好",
+      "retrieved_at": "2026-10-23T17:00:49.919130+08:00",
+      "cache": "runs\\2026-10-23-close-165939\\events-source.json"
+    },
+    {
+      "id": "close",
+      "title": "收评：创业板指探底回升涨超4% 机器人概念股集体爆发",
+      "url": "https://www.cls.cn/detail/2513429",
+      "published_at": "2026-10-23T15:01:38+08:00",
+      "note": "上涨家数为超4500的约数",
+      "retrieved_at": "2026-10-23T16:59:39.800023+08:00",
+      "cache": "runs\\2026-10-23-close-165939\\close.json"
+    },
+    {
+      "id": "mood",
+      "title": "10月23日涨停分析",
+      "url": "https://www.cls.cn/detail/2513445",
+      "published_at": "2026-10-23T15:14:24+08:00",
+      "note": "82涨停、12炸板；封板率原文87%，非ST非退市口径",
+      "retrieved_at": "2026-10-23T16:59:39.809946+08:00",
+      "cache": "runs\\2026-10-23-close-165939\\limits.json"
+    },
+    {
+      "id": "external",
+      "title": "Choice：隔夜全球市场",
+      "url": "https://finance.eastmoney.com/a/202610233904666253.html",
+      "published_at": "2026-10-23T06:15:00+08:00",
+      "note": "美国10月22日收盘，北京时间10月23日可得",
+      "retrieved_at": "2026-10-23T17:00:49.958807+08:00",
+      "cache": "runs\\2026-10-23-close-165939\\external-source.json"
+    },
+    {
+      "id": "geopolitics",
+      "title": "商务部回应科研合作限制（财联社转述）",
+      "url": "https://www.cls.cn/detail/2513414",
+      "published_at": "2026-10-23T14:51:00+08:00",
+      "retrieved_at": "2026-10-23T17:00:50.085212+08:00",
+      "cache": "runs\\2026-10-23-close-165939\\geopolitics-source.json"
+    },
+    {
+      "id": "leaders",
+      "title": "10月23日连板股分析：连板股晋级率33% 海洋王、大业股份双双晋级6连板",
+      "url": "https://www.cls.cn/detail/2513493",
+      "published_at": "2026-10-23T15:48:46+08:00",
+      "retrieved_at": "2026-10-23T16:59:39.809410+08:00",
+      "cache": "runs\\2026-10-23-close-165939\\leaders.json"
+    },
+    {
+      "id": "morning",
+      "title": "财联社10月23日早间新闻精选",
+      "url": "https://www.cls.cn/detail/2512931",
+      "published_at": "2026-10-23T08:00:28+08:00",
+      "retrieved_at": "2026-10-23T16:59:40.199220+08:00",
+      "cache": "runs\\2026-10-23-close-165939\\morning.json"
+    },
+    {
+      "id": "quote-tencent",
+      "title": "当日收盘报价交叉核验：腾讯财经",
+      "url": "https://qt.gtimg.cn/q=sh000001,sz399001,sz399006",
+      "date": "2026-10-23",
+      "retrieved_at": "2026-10-23T16:59:41+08:00",
+      "cache": "raw/20261023-165941/tencent.txt",
+      "note": "提供方页面返回最新报价；本轮原始返回已留存，可按缓存核查当日点位和成交额。"
+    },
+    {
+      "id": "quote-sina",
+      "title": "当日收盘报价交叉核验：新浪财经",
+      "url": "https://hq.sinajs.cn/list=sh000001,sz399001,sz399006",
+      "date": "2026-10-23",
+      "retrieved_at": "2026-10-23T16:59:41+08:00",
+      "cache": "raw/20261023-165941/sina.txt",
+      "note": "提供方页面返回最新报价；本轮原始返回已留存，可按缓存核查当日点位和成交额。"
+    }
+  ],
+  "dimensions": [
+    {
+      "key": "trend",
+      "score": 7,
+      "reason": "三大指数反弹，但均未收复MA20；深成指刚站上MA5，上证与创业板仍在MA5下方。属于修复，趋势反转未确认。",
+      "source_ids": [
+        "prices",
+        "quote-tencent",
+        "quote-sina"
+      ]
+    },
+    {
+      "key": "volume",
+      "score": 12,
+      "reason": "沪深成交1.9563万亿元，较前日增27.97%，为前5日均额的1.321倍。上涨伴随放量，承接比昨日改善。",
+      "source_ids": [
+        "prices",
+        "close",
+        "quote-tencent",
+        "quote-sina"
+      ]
+    },
+    {
+      "key": "breadth",
+      "score": 12,
+      "reason": "全市场超4500只股票上涨，广度显著修复；仅一个交易日，不能据此认定连续改善。",
+      "source_ids": [
+        "close"
+      ]
+    },
+    {
+      "key": "sentiment",
+      "score": 11,
+      "reason": "收盘非ST非退市口径82只涨停、12只炸板，封板率87%；15:48连板分析补充晋级率33.33%。封板修复明显，但晋级质量仍不足以确认持续进攻。",
+      "source_ids": [
+        "mood",
+        "leaders"
+      ]
+    },
+    {
+      "key": "theme",
+      "score": 10,
+      "reason": "机器人及物理AI集体修复，海洋王、大业股份地天板或准地天板晋级；个别高标反包不等于主线普遍完成回踩承接，热点仍快速轮动。",
+      "source_ids": [
+        "close",
+        "leaders"
+      ]
+    },
+    {
+      "key": "policy",
+      "score": 6,
+      "reason": "10月21日科技与产业创新政策提供中期支持；国家统计局10月19日公布前三季度GDP同比增4.6%、固定资产投资下降7.2%，增长与投资压力并存。核验窗口内未见改变这一判断的相反规定。",
+      "source_ids": [
+        "policy",
+        "macro"
+      ]
+    },
+    {
+      "key": "external",
+      "score": 1,
+      "reason": "隔夜纳指跌2.60%、费城半导体指数跌6.72%；今天的A股反弹尚未消除外部科技股波动风险。",
+      "source_ids": [
+        "external"
+      ]
+    },
+    {
+      "key": "events",
+      "score": 2,
+      "reason": "三季报密集披露、科研合作限制继续构成风险。今日早报列示大业股份收到股价波动监管工作函，并披露部分公司业绩下降；高标回封不消除监管和个股公告风险。",
+      "source_ids": [
+        "events",
+        "geopolitics",
+        "morning"
+      ]
+    }
+  ],
+  "metrics": {
+    "limit_up": 82,
+    "broken": 12,
+    "seal_rate": 87,
+    "scope": "涨停、炸板、封板率及晋级率采用财联社非ST、非退市口径；封板率87%为原文四舍五入值。上涨超4500为约数，不据此计算精确下跌占比。",
+    "continuation": 33.33
+  },
+  "conditions": [
+    {
+      "key": "seal",
+      "status": "pass",
+      "detail": "财联社原文87%，已超过70%",
+      "source_ids": [
+        "mood"
+      ]
+    },
+    {
+      "key": "breadth",
+      "status": "unknown",
+      "detail": "今日大幅修复，待下个交易日延续",
+      "source_ids": [
+        "close"
+      ]
+    },
+    {
+      "key": "theme",
+      "status": "unknown",
+      "detail": "个别高标地天板回封属局部承接，尚不足以证明主线整体回踩有承接。",
+      "source_ids": [
+        "leaders"
+      ]
+    }
+  ],
+  "reasons": [
+    "放量普涨，赚钱效应与封板质量明显修复。",
+    "三大指数仍在MA20下方，尚不能确认趋势反转。",
+    "先等强势方向回踩与广度延续；今天的反弹不自动触发加仓。"
+  ],
+  "revision_note": "16:30定时任务延迟于16:58触发；本轮复核15:00收盘行情并补入15:48连板分析及当日公告风险。判断档位未变。"
+}
