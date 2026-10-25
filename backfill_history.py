@@ -6,6 +6,7 @@ research proxies, not replicas of a human judgement published on that day.
 import argparse
 from collections import Counter
 from datetime import datetime
+import os
 import re
 
 from scoring import DIMENSIONS, quantitative, validate_review
@@ -340,14 +341,20 @@ def make_reviews():
 
 def publish_reviews(proposed):
     """Publish new historical dates under the price updater's shared lock."""
-    import msvcrt
+    if os.name == "nt":
+        import msvcrt
+    else:
+        import fcntl
     handle = (DATA / "update.lock").open("a+b")
     if handle.tell() == 0:
         handle.write(b"0")
         handle.flush()
     handle.seek(0)
     try:
-        msvcrt.locking(handle.fileno(), msvcrt.LK_NBLCK, 1)
+        if os.name == "nt":
+            msvcrt.locking(handle.fileno(), msvcrt.LK_NBLCK, 1)
+        else:
+            fcntl.flock(handle.fileno(), fcntl.LOCK_EX | fcntl.LOCK_NB)
     except OSError:
         handle.close()
         raise RuntimeError("已有更新正在运行；历史评估尚未发布，请稍后重试") from None
@@ -377,7 +384,10 @@ def publish_reviews(proposed):
         return written, preserved
     finally:
         handle.seek(0)
-        msvcrt.locking(handle.fileno(), msvcrt.LK_UNLCK, 1)
+        if os.name == "nt":
+            msvcrt.locking(handle.fileno(), msvcrt.LK_UNLCK, 1)
+        else:
+            fcntl.flock(handle.fileno(), fcntl.LOCK_UN)
         handle.close()
 
 
