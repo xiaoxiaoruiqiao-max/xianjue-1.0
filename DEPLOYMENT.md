@@ -29,7 +29,30 @@ GitHub Actions 的 `Verify local deployment` 工作流在 Windows、Ubuntu 上�
 
 ## 本次交付验收
 
-本地迁移回归已先复现旧版无法在新端口就绪的问题，修复后通过。GitHub 重新克隆、干净 Python 环境、启动器及浏览器验收结果将在完成后记录于本节。
+实现版本 `4eb5098` 已完成以下验收，随后发布文档和截图不改变程序逻辑：
+
+| 验收项 | 实际结果 |
+| --- | --- |
+| 从 GitHub 重新克隆 | 从远端取得独立副本，提交与仓库一致，不使用原目录的运行文件 |
+| 干净 Python 环境 | Python 3.12.14，使用 `venv --without-pip`，不安装第三方包即可启动 |
+| Windows 启动文件 | PowerShell 与 `启动先觉1.0.cmd` 均通过；重复启动可识别本目录服务 |
+| 中文与空格路径 | 本地独立目录和 GitHub Windows 环境均通过 |
+| 首次离线启动 | 不携带 dashboard、schedule、运行日志；自动生成页面数据，定时任务显示待配置 |
+| Python 回归 | 56 项通过，含新目录真实 HTTP 服务测试 |
+| 前端回归 | 10 项通过；JavaScript 语法检查通过 |
+| GitHub 全新环境 | Windows、Ubuntu 两个任务均通过，见下方运行记录 |
+| 数据迁移一致性 | 独立克隆的 988 个受版本管理的数据文件与原目录逐字节一致 |
+| 页面实际检查 | 首页、历史月份、冲突日期、午间空状态、返回最新交易日、数据状态弹窗均正常；控制台无错误或警告 |
+
+测试运行：[Verify local deployment #40205489098](https://github.com/xiaoxiaoruiqiao-max/xianjue-1.0/actions/runs/40205489098)。后续每个提交仍会执行相同检查，以其 Actions 结果为准。
+
+验收副本显示 241 个交易日、238 份完整八维评估，行情最新日期为 2026-10-23。测试在 Codex 当前本地执行环境中完成；另外使用 GitHub 的 Windows、Ubuntu 新环境复验，未在另一台个人电脑上实测。
+
+迁移过程中实际发现并修复：固定端口妨碍独立副本验收、Windows PowerShell 误读中文 Python 路径、历史发布锁仅支持 Windows。原始金融资料不因这些兼容修复而改写。
+
+下图为从 GitHub 克隆并在本机启动的实际页面：
+
+![GitHub 克隆副本的实际首页](docs/github-clone-home.jpg)
 
 ## 验证边界
 
